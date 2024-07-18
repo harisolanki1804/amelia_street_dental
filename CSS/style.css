@@ -1,0 +1,677 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 1. HEADER :- */
+header {
+    margin-top: 0.7rem;
+}
+
+/* ---------- UPPERNAV ----------  */
+.upperNav {
+    height: 3.4rem;
+    background-color: #0254B9;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.contact {
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bookAptBtn {
+    padding: 10px;
+    height: 40px;
+    width: 180px;
+    background-color: #219AD0;
+    border: 1px solid white;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.bookAptBtn:hover {
+    background-color: #fff;
+    color: #219AD0;
+    transition: 0.3s all ease-in-out;
+    border: 1px solid #219AD0;
+    cursor: pointer;
+}
+
+/* ---------- LOWERNAV ---------- */
+.lowerNav {
+    background-color: #fff;
+    width: 100%;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lowerNav .logo {
+    display: flex;
+    align-items: center;
+}
+
+.lowerNav .logo img {
+    height: 45px;
+}
+
+.lowerNav .navLinks {
+    display: block;
+}
+
+.lowerNav .navLinks ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    list-style-type: none;
+}
+
+.lowerNav .navLinks ul li {
+    padding: 11px 22px;
+    cursor: pointer;
+}
+
+.lowerNav .navLinks ul li.active {
+    background-color: #0254B9;
+}
+
+.lowerNav .navLinks ul li.active a {
+    color: #FFFFFF;
+}
+
+.lowerNav .navLinks ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    transition: color 0.2s ease;
+    font-weight: bold;
+}
+
+.lowerNav .navLinks ul li:hover {
+    background-color: #00b4d8;
+    transition: 0.3s all ease-in-out;
+}
+
+.lowerNav .navLinks ul li:hover a {
+    transition: 0.2s all ease-in-out;
+    color: #FFFFFF;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburgerBtn {
+    height: 30px;
+    width: 30px;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.hamburgerBtn i {
+    font-size: 21px;
+}
+
+
+/* 2. MAIN :- */
+
+main .cover {
+    height: 550px;
+    background-image: url('../Images/cover.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .cover .cover-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+main .cover .cover-info .cover-text h2 {
+    font-size: 42px;
+}
+
+/* ---------- FACILITIES ---------- */
+
+.facilities {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.facilities .grid-item{
+    height: 150px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.facilities .grid-item img {
+    height: 70px;
+    padding: 10px;
+}
+.facilities .grid-item span {
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.images video {
+    height: 380px;
+    width: 380px;
+}
+
+
+/* ---------- SERVICES ---------- */
+
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    flex-wrap: wrap-reverse;
+}
+
+.services .service-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+}
+
+.services .service-list h1 {
+    font-size: 42px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.services .service-list .buttons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+}
+
+.services .service-list .buttons button {
+    width: 45%;
+    height: 50px;
+    padding: 10px;
+    background-color: #0254B9;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+    font-weight: 500;
+}
+.bab01 {
+    width: 180px;
+    height: 50px;
+    padding: 10px;
+    background-color: #0254B9;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+    font-weight: 500;
+}
+.services .service-list .buttons button:hover, .bab01:hover {
+    background-color: #fff;
+    color: #0254B9;
+    border: 1.5px solid #0254B9;
+}
+/* 3. FOOTER :- */
+
+footer {
+    margin-top: 50px;
+    position: static;
+    bottom: 0;
+}
+
+.web-footer {
+    background-color: #0254B9;
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.web-footer .footer-address, .web-footer .footer-opening-hours, .web-footer .footer-contact {
+    width: 30%;
+    margin: 40px 0;
+}
+
+.web-footer .footer-address h2, .web-footer .footer-opening-hours h2, .web-footer .footer-contact h2{
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.web-footer .footer-address ul, .web-footer .footer-opening-hours ul, .web-footer .footer-contact .contact-list {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.web-footer .footer-address ul li, .web-footer .footer-opening-hours ul li {
+    font-size: 21px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.web-footer .footer-contact .contact-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.web-footer .footer-contact .contact-list .contact-form {
+    margin: 0 0 20px 0;
+}
+.web-footer .footer-contact .contact-list input {
+    height: 40px;
+    width: 220px;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+.web-footer .footer-contact .contact-list button {
+    height: 40px;
+    width: 120px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    color: #ffff;
+    background-color: #00b4d8;
+    cursor: pointer;
+}
+
+.web-footer .footer-contact .links {
+    display: flex;
+    font-size: 24px;
+    gap: 16px;
+    color: #fff;
+}
+
+.copyright {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+
+/* 4. ABOUT US */
+
+/* ---------- About Us Text --------- */
+
+.about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.about-us .about-info, .about-us .about-gallery {
+    height: 700px;
+    width: 650px;
+    background-color: red;
+}
+
+/* ---------- Carousel ---------- */
+.carousel-fixed-size {
+    height: 450px;
+    width: 450px;
+}
+
+.carousel-item img {
+    height: 450px;
+    width: 450px;
+}
+
+.carousel-indicators {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.carousel-indicators li {
+    margin: 5px;
+}
+
+.carousel-indicators img {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.carousel-indicators li.active img {
+    opacity: 0.5;
+}
+
+
+
+
+/* MEDIAQUERIES :- */
+
+@media (max-width: 1450px) {
+    .web-footer .footer-address, .web-footer .footer-opening-hours, .web-footer .footer-contact {
+        width: 33%;
+    }
+    
+    .web-footer .footer-address h2, .web-footer .footer-opening-hours h2, .web-footer .footer-contact h2{
+        font-size: 21px;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    .web-footer .footer-address ul, .web-footer .footer-opening-hours ul, .web-footer .footer-contact .contact-list {
+        list-style: none;
+        margin-top: 20px;
+    }
+    
+    .web-footer .footer-address ul li, .web-footer .footer-opening-hours ul li {
+        font-size: 18px;
+        margin-top: 10px;
+        color: #fff;
+    }
+    
+    .web-footer .footer-contact .contact-list {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .web-footer .footer-contact .contact-list .contact-form {
+        margin: 0 0 20px 0;
+    }
+    .web-footer .footer-contact .contact-list input {
+        height: 30px;
+        width: 190px;
+        padding: 10px;
+        outline: none;
+        border: none;
+    }
+    
+    .web-footer .footer-contact .contact-list button {
+        height: 30px;
+        width: 90px;
+        font-size: 12px;
+        outline: none;
+        border: none;
+        color: #ffff;
+        background-color: #00b4d8;
+        cursor: pointer;
+    }
+    
+    .web-footer .footer-contact .links {
+        display: flex;
+        font-size: 21px;
+        gap: 16px;
+        color: #fff;
+    }
+}
+@media (max-width: 1144px) {
+    .upperNav {
+        padding: 0 14px;
+        justify-content: space-between;
+    }
+
+    .lowerNav {
+        padding: 10px 15px;
+        /* display: block; */
+        /* justify-content: space-between; */
+    }
+
+    .lowerNav .navLinks ul {
+        gap: 0;
+    }
+    .facilities .grid-item{
+        width: 33%;
+    }
+    .web-footer .footer-address, .web-footer .footer-opening-hours, .web-footer .footer-contact {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lowerNav .logo img {
+        height: 38px;
+    }
+}
+
+@media (max-width: 972px) {
+    .upperNav {
+        padding: 0 11px;
+        justify-content: space-between;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .lowerNav .navLinks ul li {
+        padding: 4px 8px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+    .lowerNav .navLinks {
+        height: 0;
+        position: absolute;
+        top: 115px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background-color: #0254B9;
+        transition: 0.2s;
+        overflow: hidden;
+        /* z-index: 2; */
+    }
+
+    .lowerNav .navLinks.active {
+        height: 480px;
+    }
+
+    .lowerNav .navLinks ul {
+        display: block;
+        width: fit-content;
+        text-align: center;
+        transition: 0.5s;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        opacity: 0;
+    }
+
+    .lowerNav .navLinks.active ul {
+        opacity: 1;
+    }
+
+    .lowerNav .navLinks ul li {
+        margin-bottom: 30px;
+        background: none;
+    }
+
+    .lowerNav .navLinks ul li.active {
+        background: none;
+    }
+
+    .lowerNav .navLinks ul li a {
+        font-size: 27px;
+    }
+    main .cover {
+        height: 400px;
+        background-image: url('../Images/cover.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-attachment: fixed; */
+        background-position: center;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    main .cover .cover-info .cover-text h2 {
+        font-size: 34px;
+    }
+    .facilities .grid-item{
+        width: 100%;
+    }
+    .web-footer .footer-address, .web-footer .footer-opening-hours, .web-footer .footer-contact {
+        width: 100%;
+        display: block;
+    }
+    .break-point::after {
+        content: "\A";
+        white-space: pre; /* to preserve the line break */
+    }
+    .services .service-list h1 {
+        font-size: 35px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+    .bab01 {
+        width: 150px;
+        height: 40px;
+        padding: 8px;
+        background-color: #0254B9;
+        border: none;
+        outline: none;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        cursor: pointer;
+        transition: 0.2s all ease-in-out;
+        font-weight: 500;
+    }
+    .lowerNav .logo img {
+        height: 30px;
+    }
+    .images video {
+        height: 250px;
+        width: 250px;
+    }
+}
+
+@media (max-width: 650px) {
+    .upperNav {
+        padding: 0 7px;
+        justify-content: space-between;
+        font-size: 12px;
+        height: 3.4rem;
+        background-color: #0254B9;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #fff;
+    }
+    main .cover {
+        height: 300px;
+        background-image: url('../Images/cover.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-attachment: fixed; */
+        background-position: center;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    main .cover .cover-info .cover-text h2 {
+        font-size: 2rem;
+    }
+    .contact {
+        gap: 0.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .bookAptBtn {
+        padding: 0 3px;
+        height: 25px;
+        width: 140px;
+        background-color: #219AD0;
+        border: 1px solid white;
+        outline: none;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 700;
+        
+    }
+    
+    main .cover .cover-info {
+        display: flex;
+        flex-direction: column;
+        gap: 1.0rem;
+    }
+    
+    main .cover .cover-info .cover-text h2 {
+        font-size: 27px;
+    }
+    .services .service-list h1 {
+        font-size: 27px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+}
+
+@media (max-width: 400px) {
+    .upperNav {
+        padding: 0 4px;
+        justify-content: space-between;
+        font-size: 10px;
+        height: 3.4rem;
+        background-color: #0254B9;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #fff;
+    }
+    .bookAptBtn {
+        padding: 0 3px;
+        height: 30px;
+        width: 110px;
+        background-color: #219AD0;
+        border: 1px solid white;
+        outline: none;
+        color: #fff;
+        font-size: 9px;
+        font-weight: 700;
+        
+    }
+}
