@@ -452,19 +452,145 @@ footer {
 .our-team {
     height: auto;
     width: 100%;
-    /* background-color: #0254B9; */
+    background-color: #0254B9;
+    padding: 15px 30px;
+}
+
+.our-team h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 39px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.our-team .doctors {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 40px;
+    padding: 15px 20px;
 }
 
 .our-team .doctor {
     height: auto;
-    
-    width: 450px;
-    background-color: green;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.our-team .doctor img {
+    height: 180px;
+    margin: 15px;
+}
+.our-team .doctor h2 {
+    color: #ffffff;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.our-team .doctor .linked-in i {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.our-team .doctor h3 {
+    color: #ffffff;
+    font-size: 22px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.our-team .doctor .doctor-text {
+    padding: 15px;
+}
+.our-team .doctor .doctor-text p{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.our-team .doctor .doctor-text button {
+    margin: 20px 0;
+    height: 45px;
+    width: 120px;
+    font-size: 18px;
+    background-color: #0254B9;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+    font-weight: 700;
+}
+
+.our-team .doctor .doctor-text button:hover {
+    background-color: #ffffff;
+    color: #0254B9;
+    border: 1px solid #00b4d8;
+}
 #more {
     display: none;
 }
+#more01 {
+    display: none;
+}
+
+
+/* ---------- Team Quote ---------- */
+
+.team-msg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 450px;
+    width: 100%;
+    margin: 20px 0;
+    background-color: #0254B9;
+}
+
+.team-msg .text {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-msg .text ul {
+    list-style: none;
+}
+
+.team-msg .text ul li.quote {
+    font-size: 52px;
+    color: #ffffff;
+}
+
+.team-msg .text ul li.team-text {
+    font-size: 33px;
+    color: #ffffff;
+    margin: 10px 0;
+}
+
+.team-msg .team-img{
+    width: 55%;
+    height: 100%;
+}
+
+.team-img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
 /* MEDIAQUERIES :- */
 
 @media (max-width: 1450px) {
@@ -639,6 +765,44 @@ footer {
         margin-top: 10px;
         font-size: 16px;
     }
+
+    .our-team .doctors {
+        display: block;
+    }
+    .our-team .doctor {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /* .team-msg {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 450px;
+        width: 100%;
+        margin: 20px 0;
+        background-color: #0254B9;
+    } */
+
+    .team-msg {
+        height: auto;
+        display: block;
+        padding: 0 0 20px 0;
+    }
+
+    .team-msg .text {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .team-msg .team-img {
+        width: 100%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -780,6 +944,17 @@ footer {
     .about-us .about-info .about-text p {
         margin-top: 10px;
         font-size: 16px;
+    }
+    .our-team {
+        padding: 5px;
+    }
+    .our-team h1 {
+        font-size: 27px;
+        margin: 0;
+        padding: 10px;
+    }
+    .our-team .doctors .doctor .doctor-text {
+        padding: 5px;
     }
 }
 

@@ -49,7 +49,7 @@ function showSlides(n) {
 }
 
 
-// 3. Read More
+// 3. Read More (Dr. 1)
 
 function myFunction() {
     var dots = document.getElementById("dots");
@@ -64,5 +64,25 @@ function myFunction() {
         dots.style.display = "none";
         btnText.innerHTML = "Read less";
         moreText.style.display = "inline";
+    }
+}
+
+
+// 4. Read More (Dr. 2)
+
+
+function myFunction01() {
+    var dots01 = document.getElementById("dots01");
+    var moreText01 = document.getElementById("more01");
+    var btnText01 = document.getElementById("myBtn01");
+
+    if (dots01.style.display === "none") {
+        dots01.style.display = "inline";
+        btnText01.innerHTML = "Read more";
+        moreText01.style.display = "none";
+    } else {
+        dots01.style.display = "none";
+        btnText01.innerHTML = "Read less";
+        moreText01.style.display = "inline";
     }
 }
