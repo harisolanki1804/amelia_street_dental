@@ -12,7 +12,7 @@ header {
 /* ---------- UPPERNAV ----------  */
 .upperNav {
     height: 3.4rem;
-    background-color: #0254B9;
+    background-color: #0254b9;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -32,7 +32,7 @@ header {
     padding: 10px;
     height: 40px;
     width: 180px;
-    background-color: #219AD0;
+    background-color: #219ad0;
     border: 1px solid white;
     outline: none;
     color: #fff;
@@ -43,9 +43,9 @@ header {
 
 .bookAptBtn:hover {
     background-color: #fff;
-    color: #219AD0;
+    color: #219ad0;
     transition: 0.3s all ease-in-out;
-    border: 1px solid #219AD0;
+    border: 1px solid #219ad0;
     cursor: pointer;
 }
 
@@ -86,11 +86,11 @@ header {
 }
 
 .lowerNav .navLinks ul li.active {
-    background-color: #0254B9;
+    background-color: #0254b9;
 }
 
 .lowerNav .navLinks ul li.active a {
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .lowerNav .navLinks ul li a {
@@ -108,7 +108,7 @@ header {
 
 .lowerNav .navLinks ul li:hover a {
     transition: 0.2s all ease-in-out;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .hamburger {
@@ -128,12 +128,11 @@ header {
     font-size: 21px;
 }
 
-
 /* 2. MAIN :- */
 
 main .cover {
     height: 550px;
-    background-image: url('../Images/cover.png');
+    background-image: url("../Images/cover.png");
     background-size: cover;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
@@ -162,7 +161,8 @@ main .cover .cover-info .cover-text h2 {
     align-items: center;
     flex-wrap: wrap;
 }
-.facilities .grid-item{
+
+.facilities .grid-item {
     height: 150px;
     width: 20%;
     display: flex;
@@ -170,21 +170,23 @@ main .cover .cover-info .cover-text h2 {
     align-items: center;
     margin-top: 20px;
 }
+
 .facilities .grid-item img {
     height: 70px;
     padding: 10px;
 }
+
 .facilities .grid-item span {
     margin-top: 8px;
     font-size: 18px;
     font-weight: bold;
     text-align: center;
 }
+
 .images video {
     height: 380px;
     width: 380px;
 }
-
 
 /* ---------- SERVICES ---------- */
 
@@ -222,7 +224,7 @@ main .cover .cover-info .cover-text h2 {
     width: 45%;
     height: 50px;
     padding: 10px;
-    background-color: #0254B9;
+    background-color: #0254b9;
     border: none;
     outline: none;
     color: #fff;
@@ -232,11 +234,12 @@ main .cover .cover-info .cover-text h2 {
     transition: 0.2s all ease-in-out;
     font-weight: 500;
 }
+
 .bab01 {
     width: 180px;
     height: 50px;
     padding: 10px;
-    background-color: #0254B9;
+    background-color: #0254b9;
     border: none;
     outline: none;
     color: #fff;
@@ -246,11 +249,14 @@ main .cover .cover-info .cover-text h2 {
     transition: 0.2s all ease-in-out;
     font-weight: 500;
 }
-.services .service-list .buttons button:hover, .bab01:hover {
+
+.services .service-list .buttons button:hover,
+.bab01:hover {
     background-color: #fff;
-    color: #0254B9;
-    border: 1.5px solid #0254B9;
+    color: #0254b9;
+    border: 1.5px solid #0254b9;
 }
+
 /* 3. FOOTER :- */
 
 footer {
@@ -260,7 +266,7 @@ footer {
 }
 
 .web-footer {
-    background-color: #0254B9;
+    background-color: #0254b9;
     padding: 10px 25px;
     display: flex;
     justify-content: space-evenly;
@@ -268,24 +274,31 @@ footer {
     flex-wrap: wrap;
 }
 
-.web-footer .footer-address, .web-footer .footer-opening-hours, .web-footer .footer-contact {
+.web-footer .footer-address,
+.web-footer .footer-opening-hours,
+.web-footer .footer-contact {
     width: 30%;
     margin: 40px 0;
 }
 
-.web-footer .footer-address h2, .web-footer .footer-opening-hours h2, .web-footer .footer-contact h2{
+.web-footer .footer-address h2,
+.web-footer .footer-opening-hours h2,
+.web-footer .footer-contact h2 {
     font-size: 24px;
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
 }
 
-.web-footer .footer-address ul, .web-footer .footer-opening-hours ul, .web-footer .footer-contact .contact-list {
+.web-footer .footer-address ul,
+.web-footer .footer-opening-hours ul,
+.web-footer .footer-contact .contact-list {
     list-style: none;
     margin-top: 20px;
 }
 
-.web-footer .footer-address ul li, .web-footer .footer-opening-hours ul li {
+.web-footer .footer-address ul li,
+.web-footer .footer-opening-hours ul li {
     font-size: 21px;
     margin-top: 10px;
     color: #fff;
@@ -299,6 +312,7 @@ footer {
 .web-footer .footer-contact .contact-list .contact-form {
     margin: 0 0 20px 0;
 }
+
 .web-footer .footer-contact .contact-list input {
     height: 40px;
     width: 220px;
@@ -332,95 +346,167 @@ footer {
     font-weight: 500;
 }
 
-
-
 /* 4. ABOUT US */
 
 /* ---------- About Us Text --------- */
 
 .about-us {
+    margin: 20px 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+    gap: 15px;
 }
 
-.about-us .about-info, .about-us .about-gallery {
-    height: 700px;
+.about-us .about-info,
+.about-us .about-gallery {
+    height: 730px;
     width: 650px;
-    background-color: red;
+    /* background-color: red; */
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.about-us .about-info h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #215387;
+}
+
+.about-us .about-info .about-text p {
+    margin-top: 10px;
+    font-size: 21px;
 }
 
 /* ---------- Carousel ---------- */
-.carousel-fixed-size {
-    height: 450px;
+
+
+.container {
+    position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* Number text (1/3 etc) */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    float: left;
+    width: 14.28%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+
+/* ---------- Meet the team ---------- */
+
+.our-team {
+    height: auto;
+    width: 100%;
+    /* background-color: #0254B9; */
+}
+
+.our-team .doctor {
+    height: auto;
+    
     width: 450px;
+    background-color: green;
 }
 
-.carousel-item img {
-    height: 450px;
-    width: 450px;
+#more {
+    display: none;
 }
-
-.carousel-indicators {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-.carousel-indicators li {
-    margin: 5px;
-}
-
-.carousel-indicators img {
-    display: inline-block;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.carousel-indicators li.active img {
-    opacity: 0.5;
-}
-
-
-
-
 /* MEDIAQUERIES :- */
 
 @media (max-width: 1450px) {
-    .web-footer .footer-address, .web-footer .footer-opening-hours, .web-footer .footer-contact {
+
+    .web-footer .footer-address,
+    .web-footer .footer-opening-hours,
+    .web-footer .footer-contact {
         width: 33%;
     }
-    
-    .web-footer .footer-address h2, .web-footer .footer-opening-hours h2, .web-footer .footer-contact h2{
+
+    .web-footer .footer-address h2,
+    .web-footer .footer-opening-hours h2,
+    .web-footer .footer-contact h2 {
         font-size: 21px;
         color: #fff;
         text-transform: uppercase;
         font-weight: bold;
     }
-    
-    .web-footer .footer-address ul, .web-footer .footer-opening-hours ul, .web-footer .footer-contact .contact-list {
+
+    .web-footer .footer-address ul,
+    .web-footer .footer-opening-hours ul,
+    .web-footer .footer-contact .contact-list {
         list-style: none;
         margin-top: 20px;
     }
-    
-    .web-footer .footer-address ul li, .web-footer .footer-opening-hours ul li {
+
+    .web-footer .footer-address ul li,
+    .web-footer .footer-opening-hours ul li {
         font-size: 18px;
         margin-top: 10px;
         color: #fff;
     }
-    
+
     .web-footer .footer-contact .contact-list {
         display: flex;
         flex-direction: column;
     }
-    
+
     .web-footer .footer-contact .contact-list .contact-form {
         margin: 0 0 20px 0;
     }
+
     .web-footer .footer-contact .contact-list input {
         height: 30px;
         width: 190px;
@@ -428,7 +514,7 @@ footer {
         outline: none;
         border: none;
     }
-    
+
     .web-footer .footer-contact .contact-list button {
         height: 30px;
         width: 90px;
@@ -439,7 +525,7 @@ footer {
         background-color: #00b4d8;
         cursor: pointer;
     }
-    
+
     .web-footer .footer-contact .links {
         display: flex;
         font-size: 21px;
@@ -447,6 +533,7 @@ footer {
         color: #fff;
     }
 }
+
 @media (max-width: 1144px) {
     .upperNav {
         padding: 0 14px;
@@ -462,17 +549,52 @@ footer {
     .lowerNav .navLinks ul {
         gap: 0;
     }
-    .facilities .grid-item{
+
+    .facilities .grid-item {
         width: 33%;
     }
-    .web-footer .footer-address, .web-footer .footer-opening-hours, .web-footer .footer-contact {
+
+    .web-footer .footer-address,
+    .web-footer .footer-opening-hours,
+    .web-footer .footer-contact {
         width: 50%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .lowerNav .logo img {
         height: 38px;
+    }
+    .about-us {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+    }
+    
+    .about-us .about-info,
+    .about-us .about-gallery {
+        height: 700px;
+        width: 50%;
+        /* background-color: red; */
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+    
+    .about-us .about-info h1 {
+        font-size: 36px;
+        text-transform: uppercase;
+        color: #215387;
+    }
+    
+    .about-us .about-info .about-text p {
+        margin-top: 8px;
+        font-size: 18px;
     }
 }
 
@@ -487,12 +609,43 @@ footer {
     .lowerNav .navLinks ul li {
         padding: 4px 8px;
     }
+    .about-us {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .about-us .about-info,
+    .about-us .about-gallery {
+        height: 700px;
+        width: 50%;
+        /* background-color: red; */
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+    
+    .about-us .about-info h1 {
+        font-size: 32px;
+        text-transform: uppercase;
+        color: #215387;
+    }
+    
+    .about-us .about-info .about-text p {
+        margin-top: 10px;
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 768px) {
     .hamburger {
         display: block;
     }
+
     .lowerNav .navLinks {
         height: 0;
         position: absolute;
@@ -500,7 +653,7 @@ footer {
         left: 0;
         right: 0;
         width: 100vw;
-        background-color: #0254B9;
+        background-color: #0254b9;
         transition: 0.2s;
         overflow: hidden;
         /* z-index: 2; */
@@ -536,9 +689,10 @@ footer {
     .lowerNav .navLinks ul li a {
         font-size: 27px;
     }
+
     main .cover {
         height: 400px;
-        background-image: url('../Images/cover.png');
+        background-image: url("../Images/cover.png");
         background-size: cover;
         background-repeat: no-repeat;
         /* background-attachment: fixed; */
@@ -547,30 +701,39 @@ footer {
         justify-content: space-around;
         align-items: center;
     }
+
     main .cover .cover-info .cover-text h2 {
         font-size: 34px;
     }
-    .facilities .grid-item{
+
+    .facilities .grid-item {
         width: 100%;
     }
-    .web-footer .footer-address, .web-footer .footer-opening-hours, .web-footer .footer-contact {
+
+    .web-footer .footer-address,
+    .web-footer .footer-opening-hours,
+    .web-footer .footer-contact {
         width: 100%;
         display: block;
     }
+
     .break-point::after {
         content: "\A";
-        white-space: pre; /* to preserve the line break */
+        white-space: pre;
+        /* to preserve the line break */
     }
+
     .services .service-list h1 {
         font-size: 35px;
         letter-spacing: 4px;
         text-transform: uppercase;
     }
+
     .bab01 {
         width: 150px;
         height: 40px;
         padding: 8px;
-        background-color: #0254B9;
+        background-color: #0254b9;
         border: none;
         outline: none;
         color: #fff;
@@ -580,12 +743,43 @@ footer {
         transition: 0.2s all ease-in-out;
         font-weight: 500;
     }
+
     .lowerNav .logo img {
         height: 30px;
     }
+
     .images video {
         height: 250px;
         width: 250px;
+    }
+    .about-us {
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        gap: 5px;
+    }
+    
+    .about-us .about-info,
+    .about-us .about-gallery {
+        height: 40%;
+        width: 90%;
+        /* background-color: red; */
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+    
+    .about-us .about-info h1 {
+        font-size: 32px;
+        text-transform: uppercase;
+        color: #215387;
+    }
+    
+    .about-us .about-info .about-text p {
+        margin-top: 10px;
+        font-size: 16px;
     }
 }
 
@@ -595,15 +789,16 @@ footer {
         justify-content: space-between;
         font-size: 12px;
         height: 3.4rem;
-        background-color: #0254B9;
+        background-color: #0254b9;
         display: flex;
         justify-content: space-between;
         align-items: center;
         color: #fff;
     }
+
     main .cover {
         height: 300px;
-        background-image: url('../Images/cover.png');
+        background-image: url("../Images/cover.png");
         background-size: cover;
         background-repeat: no-repeat;
         /* background-attachment: fixed; */
@@ -612,37 +807,40 @@ footer {
         justify-content: space-around;
         align-items: center;
     }
+
     main .cover .cover-info .cover-text h2 {
         font-size: 2rem;
     }
+
     .contact {
         gap: 0.8rem;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
     }
+
     .bookAptBtn {
         padding: 0 3px;
         height: 25px;
         width: 140px;
-        background-color: #219AD0;
+        background-color: #219ad0;
         border: 1px solid white;
         outline: none;
         color: #fff;
         font-size: 12px;
         font-weight: 700;
-        
     }
-    
+
     main .cover .cover-info {
         display: flex;
         flex-direction: column;
-        gap: 1.0rem;
+        gap: 1rem;
     }
-    
+
     main .cover .cover-info .cover-text h2 {
         font-size: 27px;
     }
+
     .services .service-list h1 {
         font-size: 27px;
         letter-spacing: 4px;
@@ -656,22 +854,22 @@ footer {
         justify-content: space-between;
         font-size: 10px;
         height: 3.4rem;
-        background-color: #0254B9;
+        background-color: #0254b9;
         display: flex;
         justify-content: space-between;
         align-items: center;
         color: #fff;
     }
+
     .bookAptBtn {
         padding: 0 3px;
         height: 30px;
         width: 110px;
-        background-color: #219AD0;
+        background-color: #219ad0;
         border: 1px solid white;
         outline: none;
         color: #fff;
         font-size: 9px;
         font-weight: 700;
-        
     }
 }
