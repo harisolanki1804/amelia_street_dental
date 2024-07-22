@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Play", sans-serif;
 }
 
 /* 1. HEADER :- */
@@ -356,6 +357,7 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 15px;
+    z-index: -1;
 }
 
 .about-us .about-info,
@@ -820,7 +822,7 @@ footer {
         background-color: #0254b9;
         transition: 0.2s;
         overflow: hidden;
-        /* z-index: 2; */
+        z-index: 2;
     }
 
     .lowerNav .navLinks.active {
