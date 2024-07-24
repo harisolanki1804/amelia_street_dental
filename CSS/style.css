@@ -123,6 +123,7 @@ header {
     outline: none;
     background: transparent;
     cursor: pointer;
+    color: #0254B9;
 }
 
 .hamburgerBtn i {
@@ -640,34 +641,91 @@ main .main-services .main-service-cover .main-service-header p {
 }
 
 
-/* main .main-service-list {
+main .main-service-list {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 
-main .main-service-list .main-service-item {
-    width: 40%;
-    background-color: yellow;
+main .main-service-list .main-services-item {
+    width: 50%;
+    /* background-color: yellow; */
+    height: 275px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
+    margin: 10px 0;
+    /* gap: 20px; */
 }
 
-main .main-service-list .main-service-item .item-image,
-main .main-service-list .main-service-item .item-info {
-    width: 45%;
+main .main-service-list .main-services-item:nth-child(3),
+main .main-service-list .main-services-item:nth-child(4) {
+    width: 50%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin: 10px 0;
+    /* gap: 20px; */
+}
+
+main .main-service-list .main-services-item .item-image,
+main .main-service-list .main-services-item .item-info {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+main .main-service-list .main-services-item .item-info .item-content {
+    width: 85%;
     display: flex;
     justify-content: center;
     align-items: start;
     flex-direction: column;
+    gap: 15px;
 }
 
-main .main-service-list .main-service-item .item-image img {
+main .main-service-list .main-services-item .item-image img {
     width: 100%;
-} */
+    height: auto;
+}
 
+
+main .main-service-list .main-services-item .item-info h3 {
+    color: #0254B9;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+main .main-service-list .main-services-item .item-info p {
+    font-size: 14px;
+}
+
+
+main .main-service-list .main-services-item .item-info button {
+    background-color: #0254B9;
+    color: #fff;
+    height: 40px;
+    width: 160px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+main .main-service-list .main-services-item .item-info button:hover {
+    background-color: #ffff;
+    color: #0254B9;
+    border: 1px solid #0254B9;
+}
 
 
 
@@ -845,6 +903,92 @@ main .main-service-list .main-service-item .item-image img {
     main .main-services .main-service-cover .main-service-header p {
         font-size: 15px;
     }
+
+    main .main-service-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    main .main-service-list .main-services-item {
+        width: 50%;
+        /* background-color: yellow; */
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin: 10px 0;
+        /* gap: 20px; */
+    }
+
+    main .main-service-list .main-services-item:nth-child(3),
+    main .main-service-list .main-services-item:nth-child(4) {
+        width: 50%;
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row-reverse;
+        margin: 10px 0;
+        /* gap: 20px; */
+    }
+
+    main .main-service-list .main-services-item .item-image,
+    main .main-service-list .main-services-item .item-info {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    main .main-service-list .main-services-item .item-info .item-content {
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    main .main-service-list .main-services-item .item-image img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    main .main-service-list .main-services-item .item-info h3 {
+        color: #0254B9;
+        font-weight: bold;
+        font-size: 21px;
+    }
+
+
+    main .main-service-list .main-services-item .item-info p {
+        font-size: 12px;
+    }
+
+
+    main .main-service-list .main-services-item .item-info button {
+        background-color: #0254B9;
+        color: #fff;
+        height: 30px;
+        width: 130px;
+        border: none;
+        font-size: 13px;
+        font-weight: 600;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
+
+    main .main-service-list .main-services-item .item-info button:hover {
+        background-color: #ffff;
+        color: #0254B9;
+        border: 1px solid #0254B9;
+    }
 }
 
 @media (max-width: 972px) {
@@ -970,6 +1114,93 @@ main .main-service-list .main-service-item .item-image img {
 
     main .main-services .main-service-cover .main-service-header p {
         font-size: 15px;
+    }
+
+    main .main-service-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    main .main-service-list .main-services-item:nth-child(odd) {
+        width: 95%;
+        /* background-color: yellow; */
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin: 10px 0;
+        gap: 5px;
+    }
+
+    main .main-service-list .main-services-item:nth-child(even) {
+        width: 95%;
+        /* background-color: yellow; */
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row-reverse;
+        margin: 10px 0;
+        gap: 5px;
+    }
+
+    main .main-service-list .main-services-item .item-image,
+    main .main-service-list .main-services-item .item-info {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    main .main-service-list .main-services-item .item-info .item-content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    main .main-service-list .main-services-item .item-image img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    main .main-service-list .main-services-item .item-info h3 {
+        color: #0254B9;
+        font-weight: bold;
+        font-size: 22px;
+    }
+
+
+    main .main-service-list .main-services-item .item-info p {
+        font-size: 14px;
+    }
+
+
+    main .main-service-list .main-services-item .item-info button {
+        background-color: #0254B9;
+        color: #fff;
+        height: 30px;
+        width: 130px;
+        border: none;
+        font-size: 13px;
+        font-weight: 600;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
+
+    main .main-service-list .main-services-item .item-info button:hover {
+        background-color: #ffff;
+        color: #0254B9;
+        border: 1px solid #0254B9;
     }
 }
 
@@ -1172,6 +1403,100 @@ main .main-service-list .main-service-item .item-image img {
         font-size: 15px;
         text-align: center;
     }
+
+    main .main-service-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 7px;
+    }
+
+    main .main-service-list .main-services-item:nth-child(odd) {
+        width: 45%;
+        /* background-color: yellow; */
+        height: 400px;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        margin: 10px 0;
+        gap: 10px;
+        border: 1px solid #0254B9;
+        padding-bottom: 20px;
+    }
+
+    main .main-service-list .main-services-item:nth-child(even) {
+        width: 45%;
+        /* background-color: yellow; */
+        height: 400px;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        margin: 10px 0;
+        gap: 10px;
+        border: 1px solid #0254B9;
+        padding-bottom: 20px;
+    }
+
+    main .main-service-list .main-services-item .item-image,
+    main .main-service-list .main-services-item .item-info {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    main .main-service-list .main-services-item .item-info .item-content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+        padding: 0 10px;
+    }
+
+    main .main-service-list .main-services-item .item-image img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    main .main-service-list .main-services-item .item-info h3 {
+        color: #0254B9;
+        font-weight: bold;
+        font-size: 22px;
+    }
+
+
+    main .main-service-list .main-services-item .item-info p {
+        font-size: 12px;
+        height: 115px;
+    }
+
+
+    main .main-service-list .main-services-item .item-info button {
+        background-color: #0254B9;
+        color: #fff;
+        height: 30px;
+        width: 130px;
+        border: none;
+        font-size: 13px;
+        font-weight: 600;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
+
+    main .main-service-list .main-services-item .item-info button:hover {
+        background-color: #ffff;
+        color: #0254B9;
+        border: 1px solid #0254B9;
+    }
 }
 
 @media (max-width: 650px) {
@@ -1236,6 +1561,95 @@ main .main-service-list .main-service-item .item-image img {
         font-size: 27px;
         letter-spacing: 4px;
         text-transform: uppercase;
+    }
+
+    main .main-service-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 7px;
+    }
+
+    main .main-service-list .main-services-item:nth-child(odd) {
+        width: 85%;
+        /* background-color: yellow; */
+        height: auto;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        margin: 10px 0;
+        gap: 10px;
+    }
+
+    main .main-service-list .main-services-item:nth-child(even) {
+        width: 85%;
+        /* background-color: yellow; */
+        height: auto;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        margin: 10px 0;
+        gap: 10px;
+    }
+
+    main .main-service-list .main-services-item .item-image,
+    main .main-service-list .main-services-item .item-info {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    main .main-service-list .main-services-item .item-info .item-content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    main .main-service-list .main-services-item .item-image img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    main .main-service-list .main-services-item .item-info h3 {
+        color: #0254B9;
+        font-weight: bold;
+        font-size: 22px;
+    }
+
+
+    main .main-service-list .main-services-item .item-info p {
+        font-size: 12px;
+        height: auto;
+    }
+
+
+    main .main-service-list .main-services-item .item-info button {
+        background-color: #0254B9;
+        color: #fff;
+        height: 30px;
+        width: 130px;
+        border: none;
+        font-size: 13px;
+        font-weight: 600;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
+
+    main .main-service-list .main-services-item .item-info button:hover {
+        background-color: #ffff;
+        color: #0254B9;
+        border: 1px solid #0254B9;
     }
 }
 
