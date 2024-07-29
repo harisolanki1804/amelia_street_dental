@@ -86,3 +86,68 @@ function myFunction01() {
         moreText01.style.display = "inline";
     }
 }
+
+
+
+// Toggle Read More in Service Pages: 
+
+
+
+var elementsId = [
+    {
+        dots: "serv-dot-01",
+        more: "serv-more-01",
+        btn: "servBtn01"
+    },
+    {
+        dots: "serv-dot-02",
+        more: "serv-more-02",
+        btn: "servBtn02"
+    },
+    {
+        dots: "serv-dot-03",
+        more: "serv-more-03",
+        btn: "servBtn03"
+    },
+    {
+        dots: "serv-dot-04",
+        more: "serv-more-04",
+        btn: "servBtn04"
+    },
+    {
+        dots: "serv-dot-05",
+        more: "serv-more-05",
+        btn: "servBtn05"
+    },
+    {
+        dots: "serv-dot-06",
+        more: "serv-more-06",
+        btn: "servBtn06"
+    },
+]
+
+
+elementsId.forEach(function(ids) {
+    var btn = document.getElementById(ids.btn);
+    btn.onclick= function() {
+        toggleReadMore(ids.dots, ids.more, ids.btn);
+    }
+});
+
+
+
+function toggleReadMore(dotsId, moreId, btnId) {
+    var servdots = document.getElementById(dotsId);
+    var servmoreText = document.getElementById(moreId);
+    var servbtnText = document.getElementById(btnId);
+
+    if (servdots.style.display === "none") {
+        servdots.style.display = "inline";
+        servbtnText.innerHTML = "Read more";
+        servmoreText.style.display = "none";
+    } else {
+        servdots.style.display = "none";
+        servbtnText.innerHTML = "Read less";
+        servmoreText.style.display = "inline";
+    }
+}

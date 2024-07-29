@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restorative Dentistry | Amelia Street Dental</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <script src="https://kit.fontawesome.com/4cac3843a1.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="homepage">
+        <header>
+            <div class="upperNav">
+                <div class="address">
+                    <p>
+                        Suite 1, 210 Amelia <span class="break-point"></span> Street
+                        Balcatta, WA 6021
+                    </p>
+                </div>
+                <div class="contact">
+                    <div class="number">
+                        <p>Tel:<span class="break-point"></span> (08) 9344 2233</p>
+                    </div>
+                    <button class="bookAptBtn">Book Appointment</button>
+                </div>
+            </div>
+            <div class="lowerNav">
+                <div class="logo">
+                    <img src="./Images/logo.png" alt="logo" />
+                    <img src="./Images/logotxt.png" alt="logoTxt" />
+                </div>
+                <nav class="navLinks">
+                    <ul>
+                        <li>
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="./about.html">About</a>
+                        </li>
+                        <li class="active">
+                            <a href="#">Services</a>
+                        </li>
+                        <li>
+                            <a href="#">Payment</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="hamburger">
+                    <button class="hamburgerBtn">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="serv-container">
+                <div class="serv-col">
+                    <div class="serv-cov-txt">
+                        <h2>Restorative Dentistry</h2>
+                        <h4>Restore beauty and function to your smile</h4>
+                        <p>
+                            Life can take a toll on your smile, but we've got you covered. Whether you're facing
+                            discoloration, cavities, chips, or missing teeth, our range of restorative techniques,
+                            including inlays, onlays, crowns, bridges, and dentures, can bring back your smile's natural
+                            beauty and function. Regain confidence with a restored smile and a more youthful appearance.
+                        </p>
+                    </div>
+                    <div class="serv-cov-img">
+                        <img src="./Images/Restorative_Dentistry.png">
+                    </div>
+                </div>
+                <div class="serv-col">
+                    <div class="serv-avail">
+                        <h2>Restorative Dentistry Services :</h2>
+                        <div class="serv-list">
+                            <div class="serv-item">
+                                <h4>Inlays and Onlays</h4>
+                                <p>
+                                    When tooth decay advances to the point where a regular filling <span
+                                        id="serv-dot-01">...</span>
+                                    <span id="serv-more-01" class="hiddenDetail">
+                                        isn’t enough, you can
+                                        consider inlays and onlays. These treatments are less invasive than crowns and
+                                        can strengthen
+                                        your teeth for decades to come.
+                                    </span>
+
+                                </p>
+                                <button onclick="toggleReadMore('serv-dot-01', 'serv-more-01', 'servBtn01')"
+                                    id="servBtn01">Read more</button>
+                            </div>
+                            <div class="serv-item">
+                                <h4>Crowns and Bridges</h4>
+                                <p>
+                                    If you are missing one or more teeth, we can close the gap in <span
+                                        id="serv-dot-02">...</span>
+                                    <span id="serv-more-02" class="hiddenDetail">
+                                        your smile using crowns and
+                                        bridges. Get back to chewing, speaking, laughing, and loving your full smile. We
+                                        use the most
+                                        sophisticated materials in our crowns and bridges, ensuring results that last.
+                                    </span>
+
+                                </p>
+                                <button onclick="toggleReadMore('serv-dot-02', 'serv-more-02', 'servBtn02')"
+                                    id="servBtn02">Read more</button>
+                            </div>
+                            <div class="serv-item">
+                                <h4>Full Mouth Rehabilitation</h4>
+                                <p>
+                                    Are you missing a lot of teeth? Even with extensive damage, it <span
+                                        id="serv-dot-03">...</span>
+                                    <span id="serv-more-03" class="hiddenDetail">
+                                        is possible to get back to a
+                                        luminous, full smile. Our dental experts can combine treatments in a
+                                        personalized plan to fully
+                                        rehabilitate your mouth. Soon, you’ll be looking in the mirror at a whole new
+                                        smile.
+                                    </span>
+
+                                </p>
+                                <button onclick="toggleReadMore('serv-dot-03', 'serv-more-03', 'servBtn03')"
+                                    id="servBtn03">Read more</button>
+                            </div>
+                            <div class="serv-item">
+                                <h4>Dentures</h4>
+                                <p>
+                                    Patients looking for a cost-effective, non-invasive option <span
+                                        id="serv-dot-04">...</span>
+                                    <span id="serv-more-04" class="hiddenDetail">
+                                        for replacing many lost teeth can
+                                        consider dentures. Our dentures are fully customized to your teeth and gums, and
+                                        fit so well that
+                                        you’ll be astonished how comfortable you feel wearing them.
+                                    </span>
+
+                                </p>
+                                <button onclick="toggleReadMore('serv-dot-04', 'serv-more-04', 'servBtn04')"
+                                    id="servBtn04">Read more</button>
+                            </div>
+                            <div class="serv-item">
+                                <h4>Dental Implants</h4>
+                                <p>
+                                    If you are missing a tooth, we can insert a dental implant and <span
+                                        id="serv-dot-05">...</span>
+                                    <span id="serv-more-05" class="hiddenDetail">
+                                        crown to close the gap in your
+                                        smile and restore the function. The state-of-the-art materials and technologies
+                                        we use ensure
+                                        long-lasting results.
+                                    </span>
+
+                                </p>
+                                <button onclick="toggleReadMore('serv-dot-05', 'serv-more-05', 'servBtn05')"
+                                    id="servBtn05">Read more</button>
+                            </div>
+                            <div class="serv-item">
+                                <h4>Tooth Extractions</h4>
+                                <p>
+                                    When tooth decay advances to the point where a regular filling <span
+                                        id="serv-dot-06">...</span>
+                                    <span id="serv-more-06" class="hiddenDetail">
+                                        sometimes, it is the best option for
+                                        preventing the spread of an infection or changes to your bite. Our gentle dental
+                                        experts work
+                                        hard to make tooth extraction as fast, easy, relaxing and painless as possible.
+                                    </span>
+
+                                </p>
+                                <button onclick="toggleReadMore('serv-dot-06', 'serv-more-06', 'servBtn06')"
+                                    id="servBtn06">Read more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="serv-col">
+                    <div class="faq-list">
+                        <div class="faqs">
+                            <div class="faq-img">
+                                <img src="./Images/check.png" height="30">
+                            </div>
+                            <div class="faq-text">
+                                <h3>When to opt for Restorative Dentistry?</h3>
+                                <p>
+                                    Consider restorative dentistry when your natural teeth face challenges like decay...
+                                </p>
+                                <button>Read More</button>
+                            </div>
+                        </div>
+                        <div class="faqs">
+                            <div class="faq-img">
+                                <img src="./Images/star.png" height="30">
+                            </div>
+                            <div class=" faq-text">
+                                <h3>Why Restorative Dentistry is important?</h3>
+                                <p>
+                                    Restorative dentistry is vital for preserving oral health, preventing tooth loss,
+                                    and restoring ...
+                                </p>
+                                <button>Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="serv-col">
+                    <div class="serv-qna">
+                        <div class="qna-item">
+                            <div class="qna-img">
+                                <img src="./Images/smile.png" height="30">
+                            </div>
+                            <div class="qna-text">
+                                <h3>Get ready to smile again with Restorative Dentistry from Amelia Street Dental</h3>
+                                <p>
+                                    Rediscover your Smile with Amelia Street Dental's Restorative Dentistry Services.
+                                    Our skilled team specializes in restoring dental health and enhancing smiles. From
+                                    treating cavities to replacing missing teeth, our comprehensive range of restorative
+                                    treatments, including fillings, crowns, bridges, and dental implants, is designed to
+                                    meet your needs. Say goodbye to dental discomfort and hello to renewed confidence.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="serv-col">
+                    <div class="bookSchedule">
+                        <div class="SchText">
+                            <h4>Are you ready to restore your smile to its full magnificence? Schedule an appointment
+                                now!</h4>
+                        </div>
+                        <div class="SchBtn">
+                            <button>Book Appointment</button>
+                        </div>
+                    </div>
+                </div>
+        </main>
+        <footer>
+            <div class="web-footer">
+                <div class="footer-address">
+                    <h2>ADDRESS</h2>
+                    <ul>
+                        <li>Suite 1, 210 Amelia Street Balcatta, WA 6021</li>
+                        <li>Tel: (08) 9344 2233</li>
+                        <li>Fax: (08) 93443484</li>
+                    </ul>
+                </div>
+                <div class="footer-opening-hours">
+                    <h2>OPENING HOURS</h2>
+                    <ul>
+                        <li>Monday-Friday: 8:30am - 7:30pm</li>
+                        <li>Saturday: By Appointment</li>
+                        <li>Sunday: Closed</li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h2>Subscribe To Join Our Mailing List</h2>
+                    <div class="contact-list">
+                        <div class="contact-form">
+                            <input type="email" name="email" title="email" placeholder="Enter Your Email" />
+                            <button>Subscribe Now</button>
+                        </div>
+                        <div class="links">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>
+                    © 2024 by Amelia Street Dental.
+                    <span class="break-point"></span> Created & designed by MAD Spot
+                    <span class="break-point"></span> Privacy Policy | Site Map
+                </p>
+            </div>
+        </footer>
+    </div>
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>

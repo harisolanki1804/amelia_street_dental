@@ -728,6 +728,210 @@ main .main-service-list .main-services-item .item-info button:hover {
 }
 
 
+/* Services Details:- */
+
+.serv-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.serv-container .serv-col {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10spx; */
+    margin: 15px 0;
+}
+
+.serv-col .serv-cov-txt {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 7px;
+    flex-direction: column;
+    width: 30%;
+}
+
+.serv-col .serv-cov-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    flex-direction: column;
+    width: 30%;
+}
+
+.serv-col .serv-cov-txt h2 {
+    color: #0254B9;
+    font-size: 25px;
+}
+
+.serv-col .serv-cov-txt h4 {
+    font-size: 15px;
+}
+
+.serv-col .serv-cov-txt p {
+    font-size: 16px;
+}
+
+.serv-col .serv-cov-img img {
+    width: 90%;
+}
+
+.serv-avail {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 15px;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.serv-avail h2 {
+    font-size: 24px;
+    color: #00b4d8;
+}
+
+.serv-avail .serv-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.serv-avail .serv-list .serv-item {
+    width: 26%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.serv-avail .serv-list .serv-item h4 {
+    font-size: 20px;
+    color: #0254B9;
+}
+
+.serv-avail .serv-list .serv-item p {
+    font-size: 16px;
+}
+
+.serv-avail .serv-list .serv-item button,
+.serv-col .faq-list .faqs button {
+    height: 30px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    background: transparent;
+    border: none;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    text-align: left;
+}
+
+.serv-avail .serv-list .serv-item button:hover,
+.serv-col .faq-list .faqs button:hover {
+    color: #0254B9;
+}
+
+.serv-avail .serv-list .serv-item .hiddenDetail {
+    display: none;
+}
+
+.serv-col .faq-list {
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.faq-list .faqs {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+}
+
+.faq-list .faq-img img {
+    color: #0254B9;
+}
+
+.faq-list .faq-text,
+.qna-item .qna-text {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.faq-list .faq-text h3,
+.qna-item .qna-text h3 {
+    font-size: 18px;
+    color: #0254B9;
+}
+
+.faq-list .faq-text p,
+.qna-item .qna-text p {
+    font-size: 16px;
+}
+
+.serv-qna {
+    width: 60%;
+}
+
+.serv-qna .qna-item {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+}
+
+.bookSchedule {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bookSchedule .SchText {
+    width: 55%;
+}
+
+.bookSchedule h4 {
+    font-size: 21px;
+    color: #00b4d8;
+}
+
+.bookSchedule button {
+    height: 45px;
+    width: 180px;
+    color: #fff;
+    background-color: #0254B9;
+    border: none;
+    cursor: pointer;
+    font-size: 19px;
+    transition: 0.2s all ease-in-out;
+}
+
+.bookSchedule button:hover {
+    color: #0254B9;
+    background-color: #fff;
+    border: 2px solid #0254B9;
+    font-weight: bold;
+}
+
+
 
 /* MEDIAQUERIES :- */
 
@@ -988,6 +1192,142 @@ main .main-service-list .main-services-item .item-info button:hover {
         color: #0254B9;
         border: 1px solid #0254B9;
     }
+
+
+    .serv-col .serv-cov-txt {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        gap: 7px;
+        flex-direction: column;
+        width: 40%;
+    }
+
+    .serv-col .serv-cov-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+        flex-direction: column;
+        width: 40%;
+    }
+
+    .serv-col .serv-cov-txt h2 {
+        color: #0254B9;
+        font-size: 24px;
+    }
+
+    .serv-col .serv-cov-txt h4 {
+        font-size: 14px;
+    }
+
+    .serv-col .serv-cov-txt p {
+        font-size: 15px;
+    }
+
+    .serv-col .serv-cov-img img {
+        width: 85%;
+    }
+
+    .serv-avail {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 5px;
+        flex-wrap: wrap;
+        width: 80%;
+    }
+
+    .serv-avail h2 {
+        font-size: 24px;
+        color: #00b4d8;
+    }
+
+    .serv-avail .serv-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        flex-wrap: wrap;
+    }
+
+    .serv-avail .serv-list .serv-item {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 7px;
+        margin: 15px 0;
+    }
+
+    .serv-avail .serv-list .serv-item h4 {
+        font-size: 18px;
+        color: #0254B9;
+    }
+
+    .serv-avail .serv-list .serv-item p {
+        font-size: 15px;
+    }
+
+    .serv-avail .serv-list .serv-item button {
+        height: 25px;
+        width: 90px;
+        font-size: 15px;
+        font-weight: bold;
+        background: transparent;
+        border: none;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        text-align: left;
+    }
+
+
+    .serv-col .faq-list {
+        display: flex;
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .serv-qna {
+        width: 80%;
+    }
+
+    .bookSchedule {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .bookSchedule .SchText {
+        width: 60%;
+    }
+
+    .bookSchedule h4 {
+        font-size: 20px;
+        color: #00b4d8;
+    }
+
+    .bookSchedule button {
+        height: 40px;
+        width: 160px;
+        color: #fff;
+        background-color: #0254B9;
+        border: none;
+        cursor: pointer;
+        font-size: 17px;
+        transition: 0.2s all ease-in-out;
+    }
+
+    .bookSchedule button:hover {
+        color: #0254B9;
+        background-color: #fff;
+        border: 2px solid #0254B9;
+        font-weight: bold;
+    }
 }
 
 @media (max-width: 972px) {
@@ -1201,6 +1541,177 @@ main .main-service-list .main-services-item .item-info button:hover {
         color: #0254B9;
         border: 1px solid #0254B9;
     }
+
+
+    .serv-container .serv-col {
+        width: 100%;
+    }
+
+    .serv-col .serv-cov-txt {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        gap: 7px;
+        flex-direction: column;
+        width: 45%;
+    }
+
+    .serv-col .serv-cov-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+        flex-direction: column;
+        width: 45%;
+    }
+
+    .serv-col .serv-cov-txt h2 {
+        color: #0254B9;
+        font-size: 26px;
+    }
+
+    .serv-col .serv-cov-txt h4 {
+        font-size: 14px;
+    }
+
+    .serv-col .serv-cov-txt p {
+        font-size: 16px;
+    }
+
+    .serv-col .serv-cov-img img {
+        width: 90%;
+    }
+
+    .serv-avail {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 5px;
+        flex-wrap: wrap;
+        width: 90vw;
+    }
+
+    .serv-avail h2 {
+        font-size: 22px;
+        color: #00b4d8;
+    }
+
+    .serv-avail .serv-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        flex-wrap: wrap;
+    }
+
+    .serv-avail .serv-list .serv-item {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 7px;
+        margin: 15px 0;
+    }
+
+    .serv-avail .serv-list .serv-item h4 {
+        font-size: 17px;
+        color: #0254B9;
+    }
+
+    .serv-avail .serv-list .serv-item p {
+        font-size: 14px;
+    }
+
+    .serv-avail .serv-list .serv-item button,
+    .faq-list .faq-text button {
+        height: 25px;
+        width: 90px;
+        font-size: 15px;
+        font-weight: bold;
+        background: transparent;
+        border: none;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        text-align: left;
+    }
+
+
+    .serv-col .faq-list {
+        display: flex;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .faq-list .faqs {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        gap: 10px;
+    }
+
+
+    .faq-list .faq-img img {
+        /* color: #0254B9; */
+        height: 25px;
+    }
+
+    .faq-list .faq-text {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .faq-list .faq-text h3,
+    .qna-item .qna-text h3 {
+        font-size: 17px;
+        color: #0254B9;
+    }
+
+    .faq-list .faq-text p,
+    .qna-item .qna-text p {
+        font-size: 15px;
+    }
+
+    .serv-qna {
+        width: 90%;
+    }
+
+    .bookSchedule {
+        width: 90%;
+    }
+
+    .bookSchedule .SchText {
+        width: 70%;
+    }
+
+    .bookSchedule h4 {
+        font-size: 19px;
+        color: #00b4d8;
+    }
+
+    .bookSchedule button {
+        height: 40px;
+        width: 160px;
+        color: #fff;
+        background-color: #0254B9;
+        border: none;
+        cursor: pointer;
+        font-size: 17px;
+        transition: 0.2s all ease-in-out;
+    }
+
+    .bookSchedule button:hover {
+        color: #0254B9;
+        background-color: #fff;
+        border: 2px solid #0254B9;
+        font-weight: bold;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1372,7 +1883,7 @@ main .main-service-list .main-services-item .item-info button:hover {
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column-reverse;
+        flex-direction: column;
         height: auto;
         gap: 15px;
     }
@@ -1495,6 +2006,181 @@ main .main-service-list .main-services-item .item-info button:hover {
         background-color: #ffff;
         color: #0254B9;
         border: 1px solid #0254B9;
+    }
+
+
+    .serv-col:nth-child(1) {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .serv-col .serv-cov-txt {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        gap: 7px;
+        flex-direction: column;
+        width: 85%;
+    }
+
+    .serv-col .serv-cov-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+        flex-direction: column;
+        width: 85%;
+    }
+
+    .serv-col .serv-cov-txt h2 {
+        color: #0254B9;
+        font-size: 24px;
+    }
+
+    .serv-col .serv-cov-txt h4 {
+        font-size: 12px;
+    }
+
+    .serv-col .serv-cov-txt p {
+        font-size: 14px;
+    }
+
+    .serv-col .serv-cov-img img {
+        width: 70%;
+    }
+
+    .serv-avail {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 5px;
+        flex-wrap: wrap;
+        width: 85%;
+    }
+
+    .serv-avail h2 {
+        font-size: 21px;
+        color: #00b4d8;
+    }
+
+    .serv-avail .serv-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .serv-avail .serv-list .serv-item {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 7px;
+        margin: 15px 0;
+    }
+
+    .serv-avail .serv-list .serv-item h4 {
+        font-size: 17px;
+        color: #0254B9;
+    }
+
+    .serv-avail .serv-list .serv-item p {
+        font-size: 14px;
+    }
+
+    .serv-avail .serv-list .serv-item button {
+        height: 25px;
+        width: 90px;
+        font-size: 15px;
+        font-weight: bold;
+        background: transparent;
+        border: none;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        text-align: left;
+    }
+
+    .serv-col .faq-list {
+        display: flex;
+        width: 85%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .faq-list .faqs {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        gap: 10px;
+    }
+
+
+    .faq-list .faq-img img {
+        /* color: #0254B9; */
+        height: 25px;
+    }
+
+    .faq-list .faq-text {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .faq-list .faq-text h3,
+    .qna-item .qna-text h3 {
+        font-size: 16px;
+        color: #0254B9;
+    }
+
+    .faq-list .faq-text p,
+    .qna-item .qna-text p {
+        font-size: 14px;
+    }
+
+    .serv-qna {
+        width: 85%;
+    }
+
+    .bookSchedule {
+        width: 85%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .bookSchedule .SchText {
+        width: 70%;
+    }
+
+    .bookSchedule h4 {
+        font-size: 16px;
+        color: #00b4d8;
+    }
+
+    .bookSchedule button {
+        height: 30px;
+        width: 150px;
+        color: #fff;
+        background-color: #0254B9;
+        border: none;
+        cursor: pointer;
+        font-size: 15px;
+        transition: 0.2s all ease-in-out;
+    }
+
+    .bookSchedule button:hover {
+        color: #0254B9;
+        background-color: #fff;
+        border: 2px solid #0254B9;
+        font-weight: bold;
     }
 }
 
@@ -1649,6 +2335,43 @@ main .main-service-list .main-services-item .item-info button:hover {
         background-color: #ffff;
         color: #0254B9;
         border: 1px solid #0254B9;
+    }
+
+    .bookSchedule {
+        width: 85%;
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .bookSchedule .SchText {
+        width: 100%;
+    }
+
+    .bookSchedule h4 {
+        font-size: 16px;
+        color: #00b4d8;
+        text-align: center;
+    }
+
+    .bookSchedule button {
+        height: 40px;
+        width: 170px;
+        color: #fff;
+        background-color: #0254B9;
+        border: none;
+        cursor: pointer;
+        font-size: 17px;
+        transition: 0.2s all ease-in-out;
+    }
+
+    .bookSchedule button:hover {
+        color: #0254B9;
+        background-color: #fff;
+        border: 2px solid #0254B9;
+        font-weight: bold;
     }
 }
 
