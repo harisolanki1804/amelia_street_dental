@@ -124,6 +124,11 @@ var elementsId = [
         more: "serv-more-06",
         btn: "servBtn06"
     },
+    {
+        dots: "serv-dot-07",
+        more: "serv-more-07",
+        btn: "servBtn07"
+    }
 ]
 
 

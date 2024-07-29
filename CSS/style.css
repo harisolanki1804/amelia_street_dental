@@ -800,7 +800,7 @@ main .main-service-list .main-services-item .item-info button:hover {
 
 .serv-avail .serv-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: start;
     flex-wrap: wrap;
 }
@@ -860,10 +860,6 @@ main .main-service-list .main-services-item .item-info button:hover {
     justify-content: center;
     align-items: start;
     gap: 10px;
-}
-
-.faq-list .faq-img img {
-    color: #0254B9;
 }
 
 .faq-list .faq-text,
@@ -1246,7 +1242,7 @@ main .main-service-list .main-services-item .item-info button:hover {
 
     .serv-avail .serv-list {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: start;
         flex-wrap: wrap;
     }
@@ -1599,7 +1595,7 @@ main .main-service-list .main-services-item .item-info button:hover {
 
     .serv-avail .serv-list {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: start;
         flex-wrap: wrap;
     }
@@ -1654,7 +1650,8 @@ main .main-service-list .main-services-item .item-info button:hover {
     }
 
 
-    .faq-list .faq-img img {
+    .faq-list .faq-img img,
+    .qna-item .qna-img img {
         /* color: #0254B9; */
         height: 25px;
     }
@@ -2066,7 +2063,7 @@ main .main-service-list .main-services-item .item-info button:hover {
 
     .serv-avail .serv-list {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: start;
         flex-direction: column;
         flex-wrap: wrap;
@@ -2121,7 +2118,8 @@ main .main-service-list .main-services-item .item-info button:hover {
     }
 
 
-    .faq-list .faq-img img {
+    .faq-list .faq-img img,
+    .qna-item .qna-img img {
         /* color: #0254B9; */
         height: 25px;
     }
