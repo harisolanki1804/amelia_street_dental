@@ -12,6 +12,12 @@ hamburger.addEventListener('click', () => {
     } else {
         icon.classList.replace('fa-xmark', 'fa-bars');
     }
+
+    if (navLinks.classList.contains('active')) {
+        document.body.classList.add('no-scroll');
+    } else {
+        document.body.classList.remove('no-scroll');
+    }
 })
 
 
