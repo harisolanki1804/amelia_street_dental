@@ -771,6 +771,11 @@ main .main-service-list .main-services-item .item-info button:hover {
     font-size: 25px;
 }
 
+.serv-col .serv-cov-txt h2.pay-h2 {
+    font-size: 33px;
+    color: #0254B9;
+}
+
 .serv-col .serv-cov-txt h4 {
     font-size: 15px;
 }
@@ -854,6 +859,14 @@ main .main-service-list .main-services-item .item-info button:hover {
     gap: 30px;
 }
 
+.serv-col .faq-pay {
+    display: flex;
+    width: 60%;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+}
+
 .faq-list .faqs {
     width: 50%;
     display: flex;
@@ -871,6 +884,10 @@ main .main-service-list .main-services-item .item-info button:hover {
     gap: 10px;
 }
 
+.faq-list .faq-text ul {
+    padding-left: 20px;
+}
+
 .faq-list .faq-text h3,
 .qna-item .qna-text h3 {
     font-size: 18px;
@@ -878,19 +895,31 @@ main .main-service-list .main-services-item .item-info button:hover {
 }
 
 .faq-list .faq-text p,
-.qna-item .qna-text p {
+.qna-item .qna-text p,
+.faq-list .faq-text ul li,
+.qna-item .qna-text ul li {
     font-size: 16px;
 }
 
 .serv-qna {
     width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .serv-qna .qna-item {
     display: flex;
-    justify-content: center;
+    justify-content: normal;
     align-items: start;
     gap: 10px;
+    width: 100%;
+}
+
+.item-pay ul {
+    padding-left: 20px;
 }
 
 .bookSchedule {
@@ -926,6 +955,101 @@ main .main-service-list .main-services-item .item-info button:hover {
     border: 2px solid #0254B9;
     font-weight: bold;
 }
+
+.bookSchedule button.payBtn {
+    height: 45px;
+    width: 280px;
+    color: #fff;
+    background-color: #0254B9;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.2s all ease-in-out;
+}
+
+.bookSchedule button.payBtn:hover {
+    color: #0254B9;
+    background-color: #fff;
+    border: 2px solid #0254B9;
+    font-weight: bold;
+}
+
+
+/* Contact Page:-  */
+
+.contact-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    margin: 30px 0;
+}
+
+.contact-main .contact-col {
+    width: 70%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-main .contact-col>div {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 25px;
+}
+
+
+.contact-main .contact-col h2 {
+    font-size: 30px;
+    color: #0254B9;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.contact-main .contact-col ul li {
+    list-style: none;
+    font-size: 21px;
+}
+
+.contact-main .contact-col:last-child {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.contact-main .contact-col h3 {
+    font-size: 24px;
+    color: #00b4d8;
+}
+
+.contact-main .contact-col button {
+    height: 40px;
+    width: 160px;
+    background-color: #0254B9;
+    border: none;
+    color: #ffffff;
+    font-size: 21px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contact-main .contact-col button:hover {
+    border: 2px solid #0254B9;
+    color: #0254B9;
+    background-color: white;
+}
+
+.contact-main .contact-col .contact-cover img {
+    width: 100%;
+}
+
+
 
 
 
@@ -1324,7 +1448,108 @@ main .main-service-list .main-services-item .item-info button:hover {
         border: 2px solid #0254B9;
         font-weight: bold;
     }
+
+    .bookSchedule button.payBtn {
+        height: 40px;
+        width: 240px;
+        color: #fff;
+        background-color: #0254B9;
+        border: none;
+        cursor: pointer;
+        font-size: 15px;
+        transition: 0.2s all ease-in-out;
+    }
+
+    .bookSchedule button.payBtn:hover {
+        color: #0254B9;
+        background-color: #fff;
+        border: 2px solid #0254B9;
+        font-weight: bold;
+    }
+
+    .serv-col .faq-pay {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .contact-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .contact-main .contact-col {
+        width: 80%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .contact-main .contact-col>div {
+        width: 50%;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        gap: 25px;
+    }
+
+
+    .contact-main .contact-col h2 {
+        font-size: 27px;
+        color: #0254B9;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    .contact-main .contact-col ul li {
+        list-style: none;
+        font-size: 19px;
+    }
+
+    .contact-main .contact-col:last-child {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+
+    .contact-main .contact-col h3 {
+        font-size: 22px;
+        color: #00b4d8;
+    }
+
+    .contact-main .contact-col button {
+        height: 40px;
+        width: 160px;
+        background-color: #0254B9;
+        border: none;
+        color: #ffffff;
+        font-size: 21px;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .contact-main .contact-col button:hover {
+        border: 2px solid #0254B9;
+        color: #0254B9;
+        background-color: white;
+    }
+
+    .contact-main .contact-col .contact-cover img {
+        width: 100%;
+    }
+
+    .contact-main .contact-col img.item-icon {
+        height: 25px;
+    }
 }
+
 
 @media (max-width: 972px) {
     .upperNav {
@@ -1671,7 +1896,9 @@ main .main-service-list .main-services-item .item-info button:hover {
     }
 
     .faq-list .faq-text p,
-    .qna-item .qna-text p {
+    .qna-item .qna-text p,
+    .faq-list .faq-text ul li,
+    .qna-item .qna-text ul li {
         font-size: 15px;
     }
 
@@ -1708,6 +1935,106 @@ main .main-service-list .main-services-item .item-info button:hover {
         background-color: #fff;
         border: 2px solid #0254B9;
         font-weight: bold;
+    }
+
+    .bookSchedule button.payBtn {
+        height: 40px;
+        width: 200px;
+        color: #fff;
+        background-color: #0254B9;
+        border: none;
+        cursor: pointer;
+        font-size: 12px;
+        transition: 0.2s all ease-in-out;
+    }
+
+    .bookSchedule button.payBtn:hover {
+        color: #0254B9;
+        background-color: #fff;
+        border: 2px solid #0254B9;
+        font-weight: bold;
+    }
+
+    .serv-col .faq-pay {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .contact-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .contact-main .contact-col {
+        width: 95%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .contact-main .contact-col>div {
+        width: 45%;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        gap: 25px;
+    }
+
+
+    .contact-main .contact-col h2 {
+        font-size: 25px;
+        color: #0254B9;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    .contact-main .contact-col ul li {
+        list-style: none;
+        font-size: 17px;
+    }
+
+    .contact-main .contact-col:last-child {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+
+    .contact-main .contact-col h3 {
+        font-size: 22px;
+        color: #00b4d8;
+    }
+
+    .contact-main .contact-col button {
+        height: 40px;
+        width: 160px;
+        background-color: #0254B9;
+        border: none;
+        color: #ffffff;
+        font-size: 21px;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .contact-main .contact-col button:hover {
+        border: 2px solid #0254B9;
+        color: #0254B9;
+        background-color: white;
+    }
+
+    .contact-main .contact-col .contact-cover img {
+        width: 100%;
+    }
+
+    .contact-main .contact-col img.item-icon {
+        height: 25px;
     }
 }
 
@@ -2139,7 +2466,9 @@ main .main-service-list .main-services-item .item-info button:hover {
     }
 
     .faq-list .faq-text p,
-    .qna-item .qna-text p {
+    .qna-item .qna-text p,
+    .faq-list .faq-text ul li,
+    .qna-item .qna-text ul li {
         font-size: 14px;
     }
 
@@ -2179,6 +2508,111 @@ main .main-service-list .main-services-item .item-info button:hover {
         background-color: #fff;
         border: 2px solid #0254B9;
         font-weight: bold;
+    }
+
+    .bookSchedule button.payBtn {
+        height: 45px;
+        width: 240px;
+        color: #fff;
+        background-color: #0254B9;
+        border: none;
+        cursor: pointer;
+        font-size: 15px;
+        transition: 0.2s all ease-in-out;
+    }
+
+    .bookSchedule button.payBtn:hover {
+        color: #0254B9;
+        background-color: #fff;
+        border: 2px solid #0254B9;
+        font-weight: bold;
+    }
+
+    .contact-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .contact-main .contact-col {
+        width: 95%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .contact-main .contact-col:first-child {
+        width: 95%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .contact-main .contact-col>div {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        gap: 25px;
+    }
+
+
+    .contact-main .contact-col h2 {
+        font-size: 25px;
+        color: #0254B9;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    .contact-main .contact-col ul li {
+        list-style: none;
+        font-size: 17px;
+    }
+
+    .contact-main .contact-col:last-child {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+
+    .contact-main .contact-col h3 {
+        font-size: 22px;
+        color: #00b4d8;
+    }
+
+    .contact-main .contact-col button {
+        height: 40px;
+        width: 160px;
+        background-color: #0254B9;
+        border: none;
+        color: #ffffff;
+        font-size: 21px;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .contact-main .contact-col button:hover {
+        border: 2px solid #0254B9;
+        color: #0254B9;
+        background-color: white;
+    }
+
+    .contact-main .contact-col .contact-cover img {
+        width: 100%;
+    }
+
+    .contact-main .contact-col img.item-icon {
+        height: 25px;
     }
 }
 
