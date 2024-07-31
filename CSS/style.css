@@ -2,9 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Play", sans-serif;
+    font-family: "PrimaryFont", sans-serif;
 }
 
+@font-face {
+    font-family: 'PrimaryFont';
+    src: url("../Fonts/Play-Regular.ttf");
+}
 
 .no-scroll {
     overflow: hidden;
@@ -386,7 +390,7 @@ footer {
 }
 
 .about-us .about-info h1 {
-    font-size: 40px;
+    font-size: 38px;
     text-transform: uppercase;
     color: #0254B9;
 }
@@ -528,7 +532,7 @@ footer {
 
 .our-team .doctor .doctor-text p {
     color: #ffffff;
-    font-size: 18px;
+    font-size: 19px;
 }
 
 .our-team .doctor .doctor-text button {
@@ -645,7 +649,7 @@ main .main-services .main-service-image img {
 }
 
 main .main-services .main-service-cover .main-service-header h2 {
-    font-size: 36px;
+    font-size: 38px;
     color: #0254B9;
 }
 
@@ -783,11 +787,11 @@ main .main-service-list .main-services-item .item-info button:hover {
 
 .serv-col .serv-cov-txt h2 {
     color: #0254B9;
-    font-size: 25px;
+    font-size: 27px;
 }
 
 .serv-col .serv-cov-txt h2.pay-h2 {
-    font-size: 33px;
+    font-size: 27px;
     color: #0254B9;
 }
 
@@ -1002,19 +1006,19 @@ main .main-service-list .main-services-item .item-info button:hover {
 }
 
 .contact-main .contact-col {
-    width: 70%;
+    width: 65%;
     display: flex;
-    justify-content: start;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
 
 .contact-main .contact-col>div {
-    width: 50%;
+    width: 45%;
     display: flex;
     justify-content: start;
     align-items: start;
-    gap: 25px;
+    gap: 15px;
 }
 
 
@@ -1027,13 +1031,15 @@ main .main-service-list .main-services-item .item-info button:hover {
 
 .contact-main .contact-col ul li {
     list-style: none;
-    font-size: 21px;
+    font-size: 18px;
 }
 
 .contact-main .contact-col:last-child {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: start;
     align-items: center;
+    gap: 30px;
+    padding-left: 30px;
 }
 
 
@@ -1061,7 +1067,7 @@ main .main-service-list .main-services-item .item-info button:hover {
 }
 
 .contact-main .contact-col .contact-cover img {
-    width: 100%;
+    width: 90%;
 }
 
 
@@ -1191,7 +1197,7 @@ main .main-service-list .main-services-item .item-info button:hover {
     }
 
     .about-us .about-info h1 {
-        font-size: 36px;
+        font-size: 35px;
         text-transform: uppercase;
         color: #215387;
     }
@@ -1528,7 +1534,7 @@ main .main-service-list .main-services-item .item-info button:hover {
 
     .contact-main .contact-col:last-child {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: start;
         align-items: center;
     }
 
@@ -2016,7 +2022,7 @@ main .main-service-list .main-services-item .item-info button:hover {
 
     .contact-main .contact-col:last-child {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: start;
         align-items: center;
     }
 
