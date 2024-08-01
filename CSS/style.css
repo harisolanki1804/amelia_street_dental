@@ -1071,6 +1071,214 @@ main .main-service-list .main-services-item .item-info button:hover {
 }
 
 
+/* FAQ's PAGE:- */
+
+.faq-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.faq-main .faq-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 60%;
+    flex-wrap: wrap;
+}
+
+.faq-main .faq-col .faq-cover-text,
+.faq-main .faq-col .faq-cover-image {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.faq-cover-text h3 {
+    font-size: 27px;
+    color: #0254B9;
+}
+
+.faq-cover-text p {
+    font-size: 16px;
+}
+
+.faq-cover-image img {
+    width: 100%;
+}
+
+.faq-col .faq-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.faq-col .faq-button a {
+    text-decoration: none;
+    width: 40%;
+}
+
+.faq-col .faq-button a button {
+    height: 50px;
+    width: 100%;
+    color: #FFFFFF;
+    background-color: #0254B9;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.faq-col .faq-button a button:hover {
+    background-color: #FFFFFF;
+    color: #0254B9;
+    border: 2px solid #0254B9;
+}
+
+.contact-main .contact-col:last-child,
+.faq-main .faq-col:last-child {
+    display: flex;
+    justify-content: start;
+    align-items: star;
+    gap: 30px;
+    padding-left: 30px;
+}
+
+.faq-col:last-child h3 {
+    font-size: 24px;
+    color: #00b4d8;
+}
+
+.faq-col:last-child button {
+    height: 40px;
+    width: 160px;
+    background-color: #0254B9;
+    border: none;
+    color: #ffffff;
+    font-size: 21px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.faq-col:last-child button:hover {
+    border: 2px solid #0254B9;
+    color: #0254B9;
+    background-color: white;
+}
+
+
+.faqs-container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faqs-container h3 {
+    font-size: 33px;
+    color: #0254B9;
+}
+
+.faqs-container .faqs-qna-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: start;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.faqs-qna-list .faqs-qna {
+    width: 47%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+.faqs-qna-list .faqs-qna h4 {
+    font-size: 20px;
+    color: #0254B9;
+}
+
+.faqs-qna-list .faqs-qna p {
+    font-size: 16px;
+}
+
+.faqs-qna-list .faqs-qna button {
+    height: 30px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    background: transparent;
+    border: none;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    text-align: left;
+}
+
+.faqs-qna-list .faqs-qna button:hover {
+    color: #0254B9;
+}
+
+.faqs-qna-list .faqs-qna .hiddenDetail {
+    display: none;
+}
+
+.book-schedule {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.book-schedule h4 {
+    width: 60%;
+    font-size: 21px;
+    color: #00b4d8;
+}
+
+.book-schedule button {
+    height: 45px;
+    width: 200px;
+    color: #fff;
+    background-color: #0254B9;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+}
+
+.book-schedule button:hover {
+    border: 2px solid #0254B9;
+    color: #0254B9;
+    background-color: #fff;
+}
+
+
+
+
+
 
 
 
@@ -1140,6 +1348,49 @@ main .main-service-list .main-services-item .item-info button:hover {
         font-size: 21px;
         gap: 16px;
         color: #fff;
+    }
+}
+
+
+@media (max-width: 1250px) {
+    .faqs-container {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .faqs-container h3 {
+        font-size: 33px;
+        color: #0254B9;
+    }
+
+    .faqs-container .faqs-qna-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        gap: 10px;
+        margin: 15px 0;
+    }
+
+    .faqs-qna-list .faqs-qna {
+        width: 47%;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .faqs-qna-list .faqs-qna h4 {
+        font-size: 18px;
+        color: #0254B9;
+    }
+
+    .faqs-qna-list .faqs-qna p {
+        font-size: 15px;
     }
 }
 
@@ -1568,6 +1819,103 @@ main .main-service-list .main-services-item .item-info button:hover {
 
     .contact-main .contact-col img.item-icon {
         height: 25px;
+    }
+
+    .faq-main .faq-col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 80%;
+        flex-wrap: wrap;
+    }
+
+    .faq-main .faq-col .faq-cover-text,
+    .faq-main .faq-col .faq-cover-image {
+        width: 45%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .faq-cover-text h3 {
+        font-size: 24px;
+        color: #0254B9;
+    }
+
+    .faq-cover-text p {
+        font-size: 15px;
+    }
+
+    .faq-cover-image img {
+        width: 100%;
+    }
+
+    .faqs-container {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .faqs-container h3 {
+        font-size: 30px;
+        color: #0254B9;
+    }
+
+    .faqs-container .faqs-qna-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        gap: 10px;
+        margin: 15px 0;
+    }
+
+    .faqs-qna-list .faqs-qna {
+        width: 48%;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .faqs-qna-list .faqs-qna h4 {
+        font-size: 18px;
+        color: #0254B9;
+    }
+
+    .faqs-qna-list .faqs-qna p {
+        font-size: 15px;
+    }
+
+    .book-schedule h4 {
+        width: 70%;
+        font-size: 20px;
+        color: #00b4d8;
+    }
+
+    .book-schedule button {
+        height: 45px;
+        width: 200px;
+        color: #fff;
+        background-color: #0254B9;
+        font-size: 18px;
+        font-weight: bold;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        transition: 0.2s all ease-in-out;
+    }
+
+    .book-schedule button:hover {
+        border: 2px solid #0254B9;
+        color: #0254B9;
+        background-color: #fff;
     }
 }
 
@@ -2056,6 +2404,98 @@ main .main-service-list .main-services-item .item-info button:hover {
 
     .contact-main .contact-col img.item-icon {
         height: 25px;
+    }
+
+    .faq-main .faq-col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 95%;
+        flex-wrap: wrap;
+    }
+
+    .faq-main .faq-col .faq-cover-text,
+    .faq-main .faq-col .faq-cover-image {
+        width: 45%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .faq-col .faq-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .faq-col .faq-button a {
+        text-decoration: none;
+        width: 45%;
+    }
+
+    .faq-col .faq-button a button {
+        height: 50px;
+        width: 100%;
+        color: #FFFFFF;
+        background-color: #0254B9;
+        font-size: 18px;
+        font-weight: bold;
+        border: none;
+        outline: none;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
+
+    .faq-col .faq-button a button:hover {
+        background-color: #FFFFFF;
+        color: #0254B9;
+        border: 2px solid #0254B9;
+    }
+
+    .faqs-container {
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .faqs-container h3 {
+        font-size: 30px;
+        color: #0254B9;
+    }
+
+    .faqs-container .faqs-qna-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 15px 0;
+    }
+
+    .faqs-qna-list .faqs-qna {
+        width: 90%;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .faqs-qna-list .faqs-qna h4 {
+        font-size: 17px;
+        color: #0254B9;
+    }
+
+    .faqs-qna-list .faqs-qna p {
+        font-size: 14px;
     }
 }
 
@@ -2652,6 +3092,147 @@ main .main-service-list .main-services-item .item-info button:hover {
         font-size: 27px;
         color: #ffffff;
         margin: 10px 0;
+    }
+
+    .faq-main .faq-col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .faq-main .faq-col .faq-cover-text,
+    .faq-main .faq-col .faq-cover-image {
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .faq-cover-text h3 {
+        font-size: 26px;
+        color: #0254B9;
+    }
+
+    .faq-cover-text p {
+        font-size: 16px;
+    }
+
+    .faq-cover-image img {
+        width: 100%;
+    }
+
+    .faq-col .faq-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .faq-col .faq-button a {
+        text-decoration: none;
+        width: 80%;
+        text-align: center;
+    }
+
+    .faq-col .faq-button a button {
+        height: 60px;
+        width: 90%;
+        color: #FFFFFF;
+        background-color: #0254B9;
+        font-size: 18px;
+        font-weight: bold;
+        border: none;
+        outline: none;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
+
+    .faq-col .faq-button a button:hover {
+        background-color: #FFFFFF;
+        color: #0254B9;
+        border: 2px solid #0254B9;
+    }
+
+    .faqs-container {
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .faqs-container h3 {
+        font-size: 30px;
+        color: #0254B9;
+    }
+
+    .faqs-container .faqs-qna-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 15px 0;
+    }
+
+    .faqs-qna-list .faqs-qna {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .faqs-qna-list .faqs-qna h4 {
+        font-size: 17px;
+        color: #0254B9;
+    }
+
+    .faqs-qna-list .faqs-qna p {
+        font-size: 14px;
+    }
+
+    .book-schedule {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .book-schedule h4 {
+        width: 100%;
+        font-size: 18px;
+        color: #00b4d8;
+        text-align: center;
+    }
+
+    .book-schedule button {
+        height: 45px;
+        width: 200px;
+        color: #fff;
+        background-color: #0254B9;
+        font-size: 18px;
+        font-weight: bold;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        transition: 0.2s all ease-in-out;
+    }
+
+    .book-schedule button:hover {
+        border: 2px solid #0254B9;
+        color: #0254B9;
+        background-color: #fff;
     }
 }
 

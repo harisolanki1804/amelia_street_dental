@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ's on Restorative Dentistry | Amelia Street Dental</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="https://kit.fontawesome.com/4cac3843a1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="homepage">
+        <header>
+            <div class="upperNav">
+                <div class="address">
+                    <p>Suite 1, 210 Amelia <span class="break-point"></span> Street Balcatta, WA 6021</p>
+                </div>
+                <div class="contact">
+                    <div class="number">
+                        <p>Tel:<span class="break-point"></span> (08) 9344 2233</p>
+                    </div>
+                    <button class="bookAptBtn">
+                        Book Appointment
+                    </button>
+                </div>
+            </div>
+            <div class="lowerNav">
+                <div class="logo">
+                    <img src="./Images/logo.png" alt="logo">
+                    <img src="./Images/logotxt.png" alt="logoTxt">
+                </div>
+                <nav class="navLinks">
+                    <ul>
+                        <li>
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="./about.html">About</a>
+                        </li>
+                        <li class="active">
+                            <a href="./services.html">Services</a>
+                        </li>
+                        <li>
+                            <a href="./payments.html">Payment</a>
+                        </li>
+                        <li>
+                            <a href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="hamburger">
+                    <button class="hamburgerBtn">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="faq-main">
+                <div class="faqs-container">
+                    <h3>Restorative Dentistry</h3>
+                    <div class="faqs-qna-list">
+                        <div class="faqs-qna">
+                            <h4>What is restorative dentistry, and how does it improve oral health?</h4>
+                            <p>
+                                Restorative dentistry focuses on repairing and restoring damaged teeth <span
+                                    id="faq-dot-01">...</span>
+                                <span id="faq-more-01" class="hiddenDetail">
+                                    to enhance both function and aesthetics, promoting optimal oral health..
+                                </span>
+                            </p>
+                            <button onclick="toggleReadMore('faq-dot-01', 'faq-more-01', 'faqBtn01')" id="faqBtn01">Read
+                                more</button>
+                        </div>
+                        <div class="faqs-qna">
+                            <h4>What are the most common restorative dental procedures?</h4>
+                            <p>
+                                Common restorative treatments include dental fillings, crowns<span
+                                    id="faq-dot-02">...</span>
+                                <span id="faq-more-02" class="hiddenDetail">
+                                    bridges, implants, root canals, and dental bonding.
+                                </span>
+                            </p>
+                            <button onclick="toggleReadMore('faq-dot-02', 'faq-more-02', 'faqBtn02')" id="faqBtn02">Read
+                                more</button>
+                        </div>
+                        <div class="faqs-qna">
+                            <h4>How do dental fillings help treat cavities?</h4>
+                            <p>
+                                Dental fillings are used to repair cavities caused by decay, restoring the
+                                <span id="faq-dot-03">...</span>
+                                <span id="faq-more-03" class="hiddenDetail">
+                                    tooth's structure with materials like composite resin or porcelain.
+                                </span>
+                            </p>
+                            <button onclick="toggleReadMore('faq-dot-03', 'faq-more-03', 'faqBtn03')" id="faqBtn03">Read
+                                more</button>
+                        </div>
+                        <div class="faqs-qna">
+                            <h4>What are dental crowns, and when are they necessary?</h4>
+                            <p>
+                                Dental crowns are tooth-shaped caps placed over damaged teeth, providing
+                                <span id="faq-dot-04">...</span>
+                                <span id="faq-more-04" class="hiddenDetail">
+                                    strength and protection. They're recommended for restoring severely decayed or
+                                    weakened teeth.
+                                </span>
+                            </p>
+                            <button onclick="toggleReadMore('faq-dot-04', 'faq-more-04', 'faqBtn04')" id="faqBtn04">Read
+                                more</button>
+                        </div>
+                        <div class="faqs-qna">
+                            <h4>How do dental bridges replace missing teeth?</h4>
+                            <p>
+                                Dental bridges are prosthetic devices used to replace one or more
+                                <span id="faq-dot-05">...</span>
+                                <span id="faq-more-05" class="hiddenDetail">
+                                    missing teeth by anchoring artificial teeth to adjacent natural teeth or implants.
+                                </span>
+                            </p>
+                            <button onclick="toggleReadMore('faq-dot-05', 'faq-more-05', 'faqBtn05')" id="faqBtn05">Read
+                                more</button>
+                        </div>
+                        <div class="faqs-qna">
+                            <h4>What are dental implants, and how do they differ from other tooth replacement options?
+                            </h4>
+                            <p>
+                                Dental implants are artificial tooth roots surgically implanted into the
+                                <span id="faq-dot-06">...</span>
+                                <span id="faq-more-06" class="hiddenDetail">
+                                    jawbone, offering a permanent and stable solution for tooth replacement unlike
+                                    traditional dentures or bridges.
+                                </span>
+                            </p>
+                            <button onclick="toggleReadMore('faq-dot-06', 'faq-more-06', 'faqBtn06')" id="faqBtn06">Read
+                                more</button>
+                        </div>
+                        <div class="faqs-qna">
+                            <h4>When is a root canal necessary, and what does the procedure involve?</h4>
+                            <p>
+                                A root canal is needed to remove infected or inflamed pulp from a tooth
+                                <span id="faq-dot-07">...</span>
+                                <span id="faq-more-07" class="hiddenDetail">
+                                    procedure is crucial for treating severe decay, trauma, or infection, restoring the
+                                    tooth's health.
+                                </span>
+                            </p>
+                            <button onclick="toggleReadMore('faq-dot-07', 'faq-more-07', 'faqBtn07')" id="faqBtn07">Read
+                                more</button>
+                        </div>
+                        <div class="faqs-qna">
+                            <h4>How does dental bonding address cosmetic dental issues?</h4>
+                            <p>
+                                Dental bonding involves applying a tooth-colored resin to repair chips, cracks
+                                <span id="faq-dot-08">...</span>
+                                <span id="faq-more-08" class="hiddenDetail">
+                                    or discoloration, enhancing the appearance and function of teeth in a minimally
+                                    invasive way.
+                                </span>
+                            </p>
+                            <button onclick="toggleReadMore('faq-dot-08', 'faq-more-08', 'faqBtn08')" id="faqBtn08">Read
+                                more</button>
+                        </div>
+                        <div class="faqs-qna">
+                            <h4>What signs indicate the need for restorative dental treatment?</h4>
+                            <p>
+                                Symptoms such as tooth pain, sensitivity, visible damage, or difficulty chewing
+                                <span id="faq-dot-09">...</span>
+                                <span id="faq-more-09" class="hiddenDetail">
+                                    may indicate the need for restorative dental care, emphasizing the importance of
+                                    regular check-ups.
+                                </span>
+                            </p>
+                            <button onclick="toggleReadMore('faq-dot-09', 'faq-more-09', 'faqBtn09')" id="faqBtn09">Read
+                                more</button>
+                        </div>
+                        <div class="faqs-qna">
+                            <h4>Is restorative dentistry covered by dental insurance plans?</h4>
+                            <p>
+                                Restorative dental procedures are typically covered by dental insurance, but
+                                <span id="faq-dot-10">...</span>
+                                <span id="faq-more-10" class="hiddenDetail">
+                                    coverage may vary. It's advisable to review your insurance policy for details
+                                    regarding coverage option
+                                </span>
+                            </p>
+                            <button onclick="toggleReadMore('faq-dot-10', 'faq-more-10', 'faqBtn10')" id="faqBtn10">Read
+                                more</button>
+                        </div>
+                    </div>
+                    <div class="book-schedule">
+                        <h4>Schedule your Exams, Cleans, and Periodontal Disease Maintenance appointment now! Quick,
+                            thorough, comfortable cleans done by a friendly dentist or hygienist.</h4>
+                        <a href="">
+                            <button>Book Appointment</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="web-footer">
+                <div class="footer-address">
+                    <h2>ADDRESS</h2>
+                    <ul>
+                        <li>Suite 1, 210 Amelia Street Balcatta, WA 6021</li>
+                        <li>Tel: (08) 9344 2233</li>
+                        <li>Fax: (08) 93443484</li>
+                    </ul>
+                </div>
+                <div class="footer-opening-hours">
+                    <h2>OPENING HOURS</h2>
+                    <ul>
+                        <li>Monday-Friday: 8:30am - 7:30pm</li>
+                        <li>Saturday: By Appointment</li>
+                        <li>Sunday: Closed</li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h2>Subscribe To Join Our Mailing List</h2>
+                    <div class="contact-list">
+                        <div class="contact-form">
+                            <input type="email" name="email" title="email" placeholder="Enter Your Email">
+                            <button>Subscribe Now</button>
+                        </div>
+                        <div class="links">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2024 by Amelia Street Dental. <span class="break-point"></span> Created & designed by MAD Spot
+                    <span class="break-point"></span> Privacy Policy | Site Map
+                </p>
+            </div>
+        </footer>
+    </div>
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>
