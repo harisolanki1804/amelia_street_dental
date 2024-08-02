@@ -213,3 +213,17 @@ function toggleReadMore(dotsId, moreId, btnId) {
         servmoreText.style.display = "inline";
     }
 }
+
+
+
+
+// Page Redirection
+
+
+function openLink(link) {
+    window.open(link, '_blank');
+}
+
+function openPage(page) {
+    window.open(page, "_parent");
+}
