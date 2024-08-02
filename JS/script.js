@@ -14,8 +14,10 @@ hamburger.addEventListener('click', () => {
     }
 
     if (navLinks.classList.contains('active')) {
+        icon.style.color = "#FFFFFF";
         document.body.classList.add('no-scroll');
     } else {
+        icon.style.color = "#0254b9";
         document.body.classList.remove('no-scroll');
     }
 })

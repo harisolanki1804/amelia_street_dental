@@ -126,6 +126,7 @@ header {
 
 .hamburger {
     display: none;
+    z-index: 99;
 }
 
 .hamburgerBtn {
@@ -2505,30 +2506,39 @@ main .main-service-list .main-services-item .item-info button:hover {
     }
 
     .lowerNav .navLinks {
-        height: 0;
+        /* height: 0; */
         position: absolute;
-        top: 115px;
+        top: 0;
         left: 0;
         right: 0;
         width: 100vw;
+        height: 100vh;
         background-color: #0254b9;
         transition: 0.2s;
         overflow: hidden;
         z-index: 2;
+        display: none;
     }
 
     .lowerNav .navLinks.active {
-        height: 480px;
+        height: 100%;
+        display: block;
     }
 
     .lowerNav .navLinks ul {
-        display: block;
-        width: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        flex-direction: column;
         text-align: center;
         transition: 0.5s;
-        margin: 80px auto 0 auto;
         text-align: center;
         opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .lowerNav .navLinks.active ul {
@@ -3233,6 +3243,11 @@ main .main-service-list .main-services-item .item-info button:hover {
         border: 2px solid #0254B9;
         color: #0254B9;
         background-color: #fff;
+    }
+
+    .our-team .doctor .doctor-text p {
+        color: #ffffff;
+        font-size: 17px;
     }
 }
 
