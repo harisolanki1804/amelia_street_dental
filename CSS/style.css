@@ -77,6 +77,10 @@ header {
     align-items: center;
 }
 
+.logo a {
+    text-decoration: none;
+}
+
 .lowerNav .logo img {
     height: 45px;
 }
