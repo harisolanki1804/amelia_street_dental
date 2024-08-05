@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: 'PrimaryFont';
-    src: url("../Fonts/Play-Regular.ttf");
+    src: url("../Fonts/Poppins-Regular.ttf");
 }
 
 .no-scroll {
@@ -34,7 +34,7 @@ header {
     justify-content: space-evenly;
     align-items: center;
     color: #fff;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 600;
 }
 
@@ -59,7 +59,7 @@ header {
     border: 1px solid white;
     outline: none;
     color: #fff;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.8px;
@@ -104,12 +104,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.3rem;
     list-style-type: none;
 }
 
 .lowerNav .navLinks ul li {
-    padding: 7px 14px;
+    padding: 6px 12px;
     cursor: pointer;
 }
 
@@ -123,7 +122,7 @@ header {
 
 .lowerNav .navLinks ul li a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     color: black;
     transition: color 0.2s ease;
     font-weight: bold;
@@ -156,7 +155,7 @@ header {
 }
 
 .hamburgerBtn i {
-    font-size: 21px;
+    font-size: 20px;
 }
 
 /* 2. MAIN :- */
@@ -180,7 +179,7 @@ main .cover .cover-info {
 }
 
 main .cover .cover-info .cover-text h2 {
-    font-size: 39px;
+    font-size: 37px;
     letter-spacing: 4.5px;
 }
 
@@ -210,7 +209,7 @@ main .cover .cover-info .cover-text h2 {
 
 .facilities .grid-item span {
     margin-top: 8px;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: bold;
     text-align: center;
     letter-spacing: 2px;
@@ -239,7 +238,7 @@ main .cover .cover-info .cover-text h2 {
 }
 
 .services .service-list h1 {
-    font-size: 42px;
+    font-size: 39px;
     letter-spacing: 7px;
     text-transform: uppercase;
 }
@@ -265,7 +264,7 @@ main .cover .cover-info .cover-text h2 {
     border: none;
     outline: none;
     color: #fff;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
     cursor: pointer;
     transition: 0.2s all ease-in-out;
@@ -281,7 +280,7 @@ main .cover .cover-info .cover-text h2 {
     border: none;
     outline: none;
     color: #fff;
-    font-size: 15px;
+    font-size: 14px;
     cursor: pointer;
     transition: 0.2s all ease-in-out;
     font-weight: bold;
@@ -321,7 +320,7 @@ footer {
 .web-footer .footer-address h2,
 .web-footer .footer-opening-hours h2,
 .web-footer .footer-contact h2 {
-    font-size: 21px;
+    font-size: 20px;
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
@@ -337,7 +336,7 @@ footer {
 
 .web-footer .footer-address ul li,
 .web-footer .footer-opening-hours ul li {
-    font-size: 17px;
+    font-size: 16px;
     margin-top: 10px;
     color: #fff;
     letter-spacing: 1.2px;
@@ -345,7 +344,7 @@ footer {
 
 .web-footer,
 .footer-address ul li a {
-    font-size: 17px;
+    font-size: 16px;
     text-decoration: none;
     color: #fff;
 }
@@ -370,7 +369,7 @@ footer {
 .web-footer .footer-contact .contact-list button {
     height: 40px;
     width: 120px;
-    font-size: 14px;
+    font-size: 13px;
     outline: none;
     border: none;
     color: #ffff;
@@ -384,7 +383,7 @@ footer {
 }
 
 .web-footer .footer-contact .links a {
-    font-size: 21px;
+    font-size: 20px;
     color: #fff;
     text-decoration: none;
 }
@@ -393,7 +392,7 @@ footer {
 .copyright a {
     text-align: center;
     padding: 10px 0;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 500;
     text-decoration: none;
     color: #000000;
@@ -435,7 +434,7 @@ footer {
 }
 
 .about-us .about-info h1 {
-    font-size: 36px;
+    font-size: 35px;
     letter-spacing: 3.5px;
     text-transform: uppercase;
     color: #0254B9;
@@ -443,7 +442,7 @@ footer {
 
 .about-us .about-info .about-text p {
     margin-top: 5px;
-    font-size: 16px;
+    font-size: 15px;
     letter-spacing: 1.2 px;
 }
 
@@ -527,7 +526,7 @@ footer {
 .our-team h1 {
     text-align: center;
     color: #ffffff;
-    font-size: 39px;
+    font-size: 37px;
     text-transform: uppercase;
     padding: 10px 0;
     letter-spacing: 5px;
@@ -557,7 +556,7 @@ footer {
 
 .our-team .doctor h2 {
     color: #ffffff;
-    font-size: 23px;
+    font-size: 21px;
     text-transform: uppercase;
     margin: 5px 0;
     text-align: center;
@@ -566,13 +565,13 @@ footer {
 
 .our-team .doctor .linked-in i {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 19px;
     margin: 5px 0;
 }
 
 .our-team .doctor h3 {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 19px;
     margin: 5px 0;
     text-align: center;
     letter-spacing: 1.2px;
@@ -584,7 +583,7 @@ footer {
 
 .our-team .doctor .doctor-text p {
     color: #ffffff;
-    font-size: 17px;
+    font-size: 16px;
     letter-spacing: 1.3px;
     line-height: 27px;
 }
@@ -645,14 +644,15 @@ footer {
 }
 
 .team-msg .text ul li.quote {
-    font-size: 52px;
+    font-size: 48px;
     color: #ffffff;
 }
 
 .team-msg .text ul li.team-text {
-    font-size: 30px;
+    font-size: 28px;
     color: #ffffff;
     margin: 10px 0;
+    letter-spacing: 2px;
 }
 
 .team-msg .team-img {
@@ -705,7 +705,7 @@ main .main-services .main-service-image img {
 }
 
 main .main-services .main-service-cover .main-service-header h2 {
-    font-size: 36px;
+    font-size: 35px;
     color: #0254B9;
     letter-spacing: 3px;
 }
@@ -789,13 +789,13 @@ main .main-service-list .main-services-item .item-image img {
 main .main-service-list .main-services-item .item-info h3 a {
     color: #0254B9;
     font-weight: bold;
-    font-size: 21px;
+    font-size: 20px;
     letter-spacing: 1.2px;
 }
 
 
 main .main-service-list .main-services-item .item-info p {
-    font-size: 14px;
+    font-size: 13px;
     letter-spacing: 1px;
 }
 
@@ -859,12 +859,12 @@ main .main-service-list .main-services-item .item-info button:hover {
 
 .serv-col .serv-cov-txt h2 {
     color: #0254B9;
-    font-size: 27px;
+    font-size: 26px;
     letter-spacing: 3px;
 }
 
 .serv-col .serv-cov-txt h2.pay-h2 {
-    font-size: 27px;
+    font-size: 26px;
     color: #0254B9;
     letter-spacing: 3px;
 }
@@ -2777,7 +2777,7 @@ main .main-service-list .main-services-item .item-info button:hover {
     }
 
     main .cover .cover-info .cover-text h2 {
-        font-size: 30px;
+        font-size: 27px;
     }
 
     .facilities .grid-item {
@@ -2802,7 +2802,7 @@ main .main-service-list .main-services-item .item-info button:hover {
     }
 
     .services .service-list h1 {
-        font-size: 35px;
+        font-size: 33px;
         letter-spacing: 4px;
         text-transform: uppercase;
     }
@@ -2815,11 +2815,12 @@ main .main-service-list .main-services-item .item-info button:hover {
         border: none;
         outline: none;
         color: #fff;
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 400;
         cursor: pointer;
         transition: 0.2s all ease-in-out;
         font-weight: bold;
+        letter-spacing: 1px;
     }
 
     .lowerNav .logo img {
@@ -2851,14 +2852,14 @@ main .main-service-list .main-services-item .item-info button:hover {
     }
 
     .about-us .about-info h1 {
-        font-size: 32px;
+        font-size: 30px;
         text-transform: uppercase;
         color: #215387;
     }
 
     .about-us .about-info .about-text p {
         margin-top: 10px;
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .our-team {
@@ -2866,7 +2867,7 @@ main .main-service-list .main-services-item .item-info button:hover {
     }
 
     .our-team h1 {
-        font-size: 27px;
+        font-size: 26px;
         margin: 0;
         padding: 10px;
     }
@@ -2909,7 +2910,7 @@ main .main-service-list .main-services-item .item-info button:hover {
     }
 
     main .main-services .main-service-cover .main-service-header h2 {
-        font-size: 36px;
+        font-size: 34px;
         color: #0254B9;
         /* text-align: center; */
     }
@@ -3040,11 +3041,11 @@ main .main-service-list .main-services-item .item-info button:hover {
 
     .serv-col .serv-cov-txt h2 {
         color: #0254B9;
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .serv-col .serv-cov-txt h4 {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .serv-col .serv-cov-txt p {
@@ -3066,7 +3067,7 @@ main .main-service-list .main-services-item .item-info button:hover {
     }
 
     .serv-avail h2 {
-        font-size: 21px;
+        font-size: 18px;
         color: #00b4d8;
     }
 
@@ -3089,12 +3090,12 @@ main .main-service-list .main-services-item .item-info button:hover {
     }
 
     .serv-avail .serv-list .serv-item h4 {
-        font-size: 17px;
+        font-size: 16px;
         color: #0254B9;
     }
 
     .serv-avail .serv-list .serv-item p {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .serv-avail .serv-list .serv-item button {
@@ -3170,7 +3171,7 @@ main .main-service-list .main-services-item .item-info button:hover {
     }
 
     .bookSchedule h4 {
-        font-size: 16px;
+        font-size: 15px;
         color: #00b4d8;
     }
 
@@ -3248,7 +3249,7 @@ main .main-service-list .main-services-item .item-info button:hover {
 
 
     .contact-main .contact-col h2 {
-        font-size: 25px;
+        font-size: 21px;
         color: #0254B9;
         text-transform: uppercase;
         margin-bottom: 20px;
@@ -3709,6 +3710,15 @@ main .main-service-list .main-services-item .item-info button:hover {
         color: #ffffff;
         margin: 10px 0;
     }
+
+    .contact-main .contact-col ul li,
+    .contact-main .contact-col ul li a {
+        list-style: none;
+        font-size: 16px;
+        color: #000000;
+        letter-spacing: 1.4px;
+    }
+
 }
 
 @media (max-width: 400px) {
