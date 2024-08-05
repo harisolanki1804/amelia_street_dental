@@ -56,6 +56,10 @@ function showSlides(n) {
     captionText.innerHTML = dots[slideIndex - 1].alt;
 }
 
+setInterval(function() {
+    plusSlides(1);
+}, 200);
+
 
 // 3. Read More (Dr. 1)
 

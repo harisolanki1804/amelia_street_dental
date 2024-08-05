@@ -17,6 +17,10 @@
     position: fixed;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* 1. HEADER :- */
 header {
     margin-top: 0.7rem;
@@ -34,6 +38,12 @@ header {
     font-weight: 600;
 }
 
+.upperNav p a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
 .contact {
     gap: 1rem;
     display: flex;
@@ -44,7 +54,7 @@ header {
 .bookAptBtn {
     padding: 10px;
     height: 40px;
-    width: 180px;
+    width: 200px;
     background-color: #219ad0;
     border: 1px solid white;
     outline: none;
@@ -52,6 +62,7 @@ header {
     font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
+    letter-spacing: 0.8px;
 }
 
 .bookAptBtn:hover {
@@ -82,7 +93,7 @@ header {
 }
 
 .lowerNav .logo img {
-    height: 45px;
+    height: 40px;
 }
 
 .lowerNav .navLinks {
@@ -98,7 +109,7 @@ header {
 }
 
 .lowerNav .navLinks ul li {
-    padding: 11px 22px;
+    padding: 7px 14px;
     cursor: pointer;
 }
 
@@ -116,6 +127,7 @@ header {
     color: black;
     transition: color 0.2s ease;
     font-weight: bold;
+    letter-spacing: 2px;
 }
 
 .lowerNav .navLinks ul li:hover {
@@ -150,7 +162,7 @@ header {
 /* 2. MAIN :- */
 
 main .cover {
-    height: 550px;
+    height: 400px;
     background-image: url("../Images/cover.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -168,7 +180,8 @@ main .cover .cover-info {
 }
 
 main .cover .cover-info .cover-text h2 {
-    font-size: 42px;
+    font-size: 39px;
+    letter-spacing: 4.5px;
 }
 
 /* ---------- FACILITIES ---------- */
@@ -200,6 +213,7 @@ main .cover .cover-info .cover-text h2 {
     font-size: 18px;
     font-weight: bold;
     text-align: center;
+    letter-spacing: 2px;
 }
 
 .images video {
@@ -226,7 +240,7 @@ main .cover .cover-info .cover-text h2 {
 
 .services .service-list h1 {
     font-size: 42px;
-    letter-spacing: 4px;
+    letter-spacing: 7px;
     text-transform: uppercase;
 }
 
@@ -236,11 +250,11 @@ main .cover .cover-info .cover-text h2 {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    gap: 1.2rem;
+    gap: 10px;
 }
 
 .services .service-list .buttons a {
-    width: 45%;
+    width: 48%;
 }
 
 .services .service-list .buttons a button {
@@ -251,33 +265,33 @@ main .cover .cover-info .cover-text h2 {
     border: none;
     outline: none;
     color: #fff;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
     cursor: pointer;
     transition: 0.2s all ease-in-out;
     font-weight: bold;
+    letter-spacing: 2px;
 }
 
 .bab01 {
-    width: 180px;
+    width: 200px;
     height: 50px;
     padding: 10px;
     background-color: #0254b9;
     border: none;
     outline: none;
     color: #fff;
-    font-size: 16px;
+    font-size: 15px;
     cursor: pointer;
     transition: 0.2s all ease-in-out;
     font-weight: bold;
-
 }
 
 .services .service-list .buttons button:hover,
 .bab01:hover {
     background-color: #fff;
     color: #0254b9;
-    border: 1.5px solid #0254b9;
+    border: 2px solid #0254b9;
 }
 
 /* 3. FOOTER :- */
@@ -307,10 +321,11 @@ footer {
 .web-footer .footer-address h2,
 .web-footer .footer-opening-hours h2,
 .web-footer .footer-contact h2 {
-    font-size: 24px;
+    font-size: 21px;
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
+    letter-spacing: 3px;
 }
 
 .web-footer .footer-address ul,
@@ -322,8 +337,16 @@ footer {
 
 .web-footer .footer-address ul li,
 .web-footer .footer-opening-hours ul li {
-    font-size: 21px;
+    font-size: 17px;
     margin-top: 10px;
+    color: #fff;
+    letter-spacing: 1.2px;
+}
+
+.web-footer,
+.footer-address ul li a {
+    font-size: 17px;
+    text-decoration: none;
     color: #fff;
 }
 
@@ -357,16 +380,24 @@ footer {
 
 .web-footer .footer-contact .links {
     display: flex;
-    font-size: 24px;
     gap: 16px;
-    color: #fff;
 }
 
-.copyright {
+.web-footer .footer-contact .links a {
+    font-size: 21px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.copyright,
+.copyright a {
     text-align: center;
     padding: 10px 0;
     font-size: 18px;
     font-weight: 500;
+    text-decoration: none;
+    color: #000000;
+    letter-spacing: 1.5px;
 }
 
 /* 4. ABOUT US */
@@ -374,35 +405,46 @@ footer {
 /* ---------- About Us Text --------- */
 
 .about-us {
-    margin: 20px 0;
+    margin: 10px 0;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
     z-index: -1;
+    height: auto;
 }
 
-.about-us .about-info,
-.about-us .about-gallery {
-    height: 730px;
-    width: 650px;
-    /* background-color: red; */
-    padding: 30px;
+.about-us .about-info {
+    height: auto;
+    width: 610px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
+    padding: 0 10px;
+}
+
+.about-us .about-gallery {
+    height: auto;
+    width: 610px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
 }
 
 .about-us .about-info h1 {
-    font-size: 38px;
+    font-size: 36px;
+    letter-spacing: 3.5px;
     text-transform: uppercase;
     color: #0254B9;
 }
 
 .about-us .about-info .about-text p {
-    margin-top: 10px;
-    font-size: 19px;
+    margin-top: 5px;
+    font-size: 16px;
+    letter-spacing: 1.2 px;
 }
 
 /* ---------- Carousel ---------- */
@@ -410,6 +452,8 @@ footer {
 
 .container {
     position: relative;
+    height: auto;
+    width: 85%;
 }
 
 /* Hide the images by default */
@@ -485,20 +529,21 @@ footer {
     color: #ffffff;
     font-size: 39px;
     text-transform: uppercase;
-    padding: 10px;
+    padding: 10px 0;
+    letter-spacing: 5px;
 }
 
 .our-team .doctors {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: start;
     gap: 40px;
-    padding: 15px 20px;
+    padding: 7px 15px;
 }
 
 .our-team .doctor {
     height: auto;
-    width: 35%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -506,16 +551,17 @@ footer {
 }
 
 .our-team .doctor img {
-    height: 180px;
+    height: 150px;
     margin: 15px;
 }
 
 .our-team .doctor h2 {
     color: #ffffff;
-    font-size: 25px;
+    font-size: 23px;
     text-transform: uppercase;
     margin: 5px 0;
     text-align: center;
+    letter-spacing: 1.2px;
 }
 
 .our-team .doctor .linked-in i {
@@ -526,9 +572,10 @@ footer {
 
 .our-team .doctor h3 {
     color: #ffffff;
-    font-size: 22px;
+    font-size: 20px;
     margin: 5px 0;
     text-align: center;
+    letter-spacing: 1.2px;
 }
 
 .our-team .doctor .doctor-text {
@@ -537,7 +584,9 @@ footer {
 
 .our-team .doctor .doctor-text p {
     color: #ffffff;
-    font-size: 19px;
+    font-size: 17px;
+    letter-spacing: 1.3px;
+    line-height: 27px;
 }
 
 .our-team .doctor .doctor-text button {
@@ -576,14 +625,15 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: row-reverse;
-    height: 450px;
+    height: auto;
     width: 100%;
     margin: 20px 0;
     background-color: #0254B9;
+    overflow: hidden;
 }
 
 .team-msg .text {
-    width: 45%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -600,19 +650,20 @@ footer {
 }
 
 .team-msg .text ul li.team-text {
-    font-size: 33px;
+    font-size: 30px;
     color: #ffffff;
     margin: 10px 0;
 }
 
 .team-msg .team-img {
-    width: 55%;
-    height: 100%;
+    height: auto;
+    width: auto;
 }
 
 .team-img img {
     width: 100%;
     height: 100%;
+    margin-top: 2px;
 }
 
 
@@ -626,7 +677,7 @@ main .main-services {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    margin: 30px 0;
+    margin: 10px 0;
 }
 
 main .main-services .main-service-cover {
@@ -635,7 +686,7 @@ main .main-services .main-service-cover {
     align-items: center;
     height: auto;
     gap: 10px;
-    margin: 15px 0;
+    margin: 5px 0;
 }
 
 main .main-services .main-service-cover .main-service-header,
@@ -654,12 +705,14 @@ main .main-services .main-service-image img {
 }
 
 main .main-services .main-service-cover .main-service-header h2 {
-    font-size: 38px;
+    font-size: 36px;
     color: #0254B9;
+    letter-spacing: 3px;
 }
 
 main .main-services .main-service-cover .main-service-header p {
-    font-size: 17px;
+    font-size: 16px;
+    letter-spacing: 1.2px;
 }
 
 
@@ -669,18 +722,16 @@ main .main-service-list {
     align-items: center;
     flex-wrap: wrap;
     height: auto;
-    margin: 15px 0;
+    margin: 15px 0
 }
 
 main .main-service-list .main-services-item {
     width: 50%;
-    /* background-color: yellow; */
-    height: 275px;
+    height: 270px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    margin: 10px 0;
     /* gap: 20px; */
 }
 
@@ -692,44 +743,60 @@ main .main-service-list .main-services-item:nth-child(4) {
     justify-content: center;
     align-items: center;
     flex-direction: row-reverse;
-    margin: 10px 0;
     /* gap: 20px; */
 }
 
-main .main-service-list .main-services-item .item-image,
+main .main-service-list .main-services-item .item-image {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
 main .main-service-list .main-services-item .item-info {
     width: 50%;
+    height: 270px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 15px;
 }
+
 
 main .main-service-list .main-services-item .item-info .item-content {
     width: 85%;
+    height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: start;
     flex-direction: column;
     gap: 15px;
 }
 
+main .main-service-list .main-services-item .item-image a {
+    width: 100%;
+    height: 100%;
+}
+
 main .main-service-list .main-services-item .item-image img {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 
-main .main-service-list .main-services-item .item-info h3 {
+main .main-service-list .main-services-item .item-info h3 a {
     color: #0254B9;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 21px;
+    letter-spacing: 1.2px;
 }
 
 
 main .main-service-list .main-services-item .item-info p {
     font-size: 14px;
+    letter-spacing: 1px;
 }
 
 
@@ -759,7 +826,7 @@ main .main-service-list .main-services-item .item-info button:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 20px 0;
+    margin: 5px 0;
     gap: 20px;
 }
 
@@ -793,19 +860,23 @@ main .main-service-list .main-services-item .item-info button:hover {
 .serv-col .serv-cov-txt h2 {
     color: #0254B9;
     font-size: 27px;
+    letter-spacing: 3px;
 }
 
 .serv-col .serv-cov-txt h2.pay-h2 {
     font-size: 27px;
     color: #0254B9;
+    letter-spacing: 3px;
 }
 
 .serv-col .serv-cov-txt h4 {
     font-size: 15px;
+    letter-spacing: 1.2px;
 }
 
 .serv-col .serv-cov-txt p {
     font-size: 16px;
+    letter-spacing: 1.4px;
 }
 
 .serv-col .serv-cov-img img {
@@ -825,6 +896,7 @@ main .main-service-list .main-services-item .item-info button:hover {
 .serv-avail h2 {
     font-size: 24px;
     color: #00b4d8;
+    letter-spacing: 2px;
 }
 
 .serv-avail .serv-list {
@@ -832,6 +904,7 @@ main .main-service-list .main-services-item .item-info button:hover {
     justify-content: space-evenly;
     align-items: start;
     flex-wrap: wrap;
+    gap: 12px;
 }
 
 .serv-avail .serv-list .serv-item {
@@ -845,12 +918,14 @@ main .main-service-list .main-services-item .item-info button:hover {
 }
 
 .serv-avail .serv-list .serv-item h4 {
-    font-size: 20px;
+    font-size: 18px;
     color: #0254B9;
+    letter-spacing: 2px;
 }
 
 .serv-avail .serv-list .serv-item p {
     font-size: 16px;
+    letter-spacing: 1.2px;
 }
 
 .serv-avail .serv-list .serv-item button,
@@ -916,6 +991,7 @@ main .main-service-list .main-services-item .item-info button:hover {
 .qna-item .qna-text h3 {
     font-size: 18px;
     color: #0254B9;
+    letter-spacing: 1.3px;
 }
 
 .faq-list .faq-text p,
@@ -923,6 +999,7 @@ main .main-service-list .main-services-item .item-info button:hover {
 .faq-list .faq-text ul li,
 .qna-item .qna-text ul li {
     font-size: 16px;
+    letter-spacing: 1.2px;
 }
 
 .serv-qna {
@@ -958,8 +1035,9 @@ main .main-service-list .main-services-item .item-info button:hover {
 }
 
 .bookSchedule h4 {
-    font-size: 21px;
+    font-size: 18px;
     color: #00b4d8;
+    letter-spacing: 1.5px;
 }
 
 .bookSchedule button {
@@ -1014,7 +1092,7 @@ main .main-service-list .main-services-item .item-info button:hover {
     width: 65%;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: start;
     flex-wrap: wrap;
 }
 
@@ -1026,17 +1104,20 @@ main .main-service-list .main-services-item .item-info button:hover {
     gap: 15px;
 }
 
-
 .contact-main .contact-col h2 {
-    font-size: 30px;
+    font-size: 24px;
     color: #0254B9;
     text-transform: uppercase;
     margin-bottom: 20px;
+    letter-spacing: 2px;
 }
 
-.contact-main .contact-col ul li {
+.contact-main .contact-col ul li,
+.contact-main .contact-col ul li a {
     list-style: none;
     font-size: 18px;
+    color: #000000;
+    letter-spacing: 1.4px;
 }
 
 .contact-main .contact-col:last-child {
@@ -1044,13 +1125,13 @@ main .main-service-list .main-services-item .item-info button:hover {
     justify-content: start;
     align-items: center;
     gap: 30px;
-    padding-left: 30px;
 }
 
 
 .contact-main .contact-col h3 {
     font-size: 24px;
     color: #00b4d8;
+    letter-spacing: 1.2px;
 }
 
 .contact-main .contact-col button {
@@ -1072,7 +1153,7 @@ main .main-service-list .main-services-item .item-info button:hover {
 }
 
 .contact-main .contact-col .contact-cover img {
-    width: 90%;
+    width: 80%;
 }
 
 
@@ -1085,7 +1166,7 @@ main .main-service-list .main-services-item .item-info button:hover {
     flex-direction: column;
     gap: 30px;
     width: 100%;
-    margin: 15px 0;
+    margin: 10px 0;
 }
 
 .faq-main .faq-col {
@@ -1108,12 +1189,14 @@ main .main-service-list .main-services-item .item-info button:hover {
 }
 
 .faq-cover-text h3 {
-    font-size: 27px;
+    font-size: 25px;
     color: #0254B9;
+    letter-spacing: 1.7px;
 }
 
 .faq-cover-text p {
     font-size: 16px;
+    letter-spacing: 1.2px;
 }
 
 .faq-cover-image img {
@@ -1131,6 +1214,7 @@ main .main-service-list .main-services-item .item-info button:hover {
 .faq-col .faq-button a {
     text-decoration: none;
     width: 40%;
+
 }
 
 .faq-col .faq-button a button {
@@ -1144,6 +1228,7 @@ main .main-service-list .main-services-item .item-info button:hover {
     outline: none;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
+    letter-spacing: 1;
 }
 
 .faq-col .faq-button a button:hover {
@@ -1156,7 +1241,7 @@ main .main-service-list .main-services-item .item-info button:hover {
 .faq-main .faq-col:last-child {
     display: flex;
     justify-content: start;
-    align-items: star;
+    align-items: start;
     gap: 30px;
     padding-left: 30px;
 }
@@ -1164,6 +1249,7 @@ main .main-service-list .main-services-item .item-info button:hover {
 .faq-col:last-child h3 {
     font-size: 24px;
     color: #00b4d8;
+    letter-spacing: 1.2px;
 }
 
 .faq-col:last-child button {
@@ -1197,6 +1283,7 @@ main .main-service-list .main-services-item .item-info button:hover {
 .faqs-container h3 {
     font-size: 33px;
     color: #0254B9;
+    letter-spacing: 1.8px;
 }
 
 .faqs-container .faqs-qna-list {
@@ -1221,10 +1308,12 @@ main .main-service-list .main-services-item .item-info button:hover {
 .faqs-qna-list .faqs-qna h4 {
     font-size: 20px;
     color: #0254B9;
+    letter-spacing: 1.3px;
 }
 
 .faqs-qna-list .faqs-qna p {
     font-size: 16px;
+    letter-spacing: 1.1px;
 }
 
 .faqs-qna-list .faqs-qna button {
@@ -1237,6 +1326,7 @@ main .main-service-list .main-services-item .item-info button:hover {
     transition: all 0.2s ease-in-out;
     cursor: pointer;
     text-align: left;
+    letter-spacing: 1.1px;
 }
 
 .faqs-qna-list .faqs-qna button:hover {
@@ -1257,13 +1347,15 @@ main .main-service-list .main-services-item .item-info button:hover {
 
 .book-schedule h4 {
     width: 60%;
-    font-size: 21px;
+    font-size: 19px;
     color: #00b4d8;
+    letter-spacing: 1.4px;
 }
 
 .book-schedule button {
     height: 45px;
     width: 200px;
+    letter-spacing: 1.1px;
     color: #fff;
     background-color: #0254B9;
     font-size: 18px;
@@ -1317,6 +1409,13 @@ main .main-service-list .main-services-item .item-info button:hover {
     .web-footer .footer-opening-hours ul li {
         font-size: 18px;
         margin-top: 10px;
+        color: #fff;
+    }
+
+    .web-footer,
+    .footer-address ul li a {
+        font-size: 18px;
+        text-decoration: none;
         color: #fff;
     }
 
@@ -1397,6 +1496,23 @@ main .main-service-list .main-services-item .item-info button:hover {
     .faqs-qna-list .faqs-qna p {
         font-size: 15px;
     }
+
+    .our-team .doctors {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        gap: 40px;
+        padding: 7px 15px;
+    }
+
+    .our-team .doctor {
+        height: auto;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media (max-width: 1144px) {
@@ -1413,6 +1529,19 @@ main .main-service-list .main-services-item .item-info button:hover {
 
     .lowerNav .navLinks ul {
         gap: 0;
+    }
+
+    main .cover {
+        height: 380px;
+        background-image: url("../Images/cover.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-attachment: fixed; */
+        background-position: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 30px;
     }
 
     .facilities .grid-item {
@@ -1433,34 +1562,52 @@ main .main-service-list .main-services-item .item-info button:hover {
     }
 
     .about-us {
-        margin-top: 30px;
+        margin: 10px 0;
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 18px;
+        gap: 10px;
+        z-index: -1;
+        height: auto;
     }
 
-    .about-us .about-info,
-    .about-us .about-gallery {
-        height: 700px;
-        width: 50%;
-        /* background-color: red; */
-        padding: 15px;
+    .about-us .about-info {
+        height: auto;
+        width: 45%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: start;
+        padding: 0 10px;
+    }
+
+    .about-us .about-gallery {
+        height: auto;
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px;
     }
 
     .about-us .about-info h1 {
-        font-size: 35px;
+        font-size: 34px;
+        letter-spacing: 3.2px;
         text-transform: uppercase;
-        color: #215387;
+        color: #0254B9;
     }
 
     .about-us .about-info .about-text p {
-        margin-top: 8px;
-        font-size: 17px;
+        margin-top: 5px;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+
+    .container {
+        position: relative;
+        height: auto;
+        width: 95%;
     }
 
     main .main-services {
@@ -1509,17 +1656,17 @@ main .main-service-list .main-services-item .item-info button:hover {
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+        height: auto;
+        margin: 15px 0
     }
 
     main .main-service-list .main-services-item {
         width: 50%;
-        /* background-color: yellow; */
-        height: 250px;
+        height: 220px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        margin: 10px 0;
         /* gap: 20px; */
     }
 
@@ -1531,39 +1678,53 @@ main .main-service-list .main-services-item .item-info button:hover {
         justify-content: center;
         align-items: center;
         flex-direction: row-reverse;
-        margin: 10px 0;
         /* gap: 20px; */
     }
 
-    main .main-service-list .main-services-item .item-image,
+    main .main-service-list .main-services-item .item-image {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
     main .main-service-list .main-services-item .item-info {
         width: 50%;
+        height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        gap: 5px;
     }
 
+
     main .main-service-list .main-services-item .item-info .item-content {
-        width: 85%;
+        width: 90%;
+        height: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: start;
         flex-direction: column;
         gap: 10px;
     }
 
+    main .main-service-list .main-services-item .item-image a {
+        width: 100%;
+        height: 100%;
+    }
+
     main .main-service-list .main-services-item .item-image img {
         width: 100%;
-        height: auto;
+        height: 100%;
     }
 
 
-    main .main-service-list .main-services-item .item-info h3 {
+    main .main-service-list .main-services-item .item-info h3 a {
         color: #0254B9;
         font-weight: bold;
-        font-size: 21px;
+        font-size: 19px;
     }
 
 
@@ -1576,7 +1737,7 @@ main .main-service-list .main-services-item .item-info button:hover {
         background-color: #0254B9;
         color: #fff;
         height: 30px;
-        width: 130px;
+        width: 120px;
         border: none;
         font-size: 13px;
         font-weight: 600;
@@ -1763,7 +1924,7 @@ main .main-service-list .main-services-item .item-info button:hover {
         width: 80%;
         display: flex;
         justify-content: start;
-        align-items: center;
+        align-items: start;
         flex-wrap: wrap;
     }
 
@@ -1937,35 +2098,67 @@ main .main-service-list .main-services-item .item-info button:hover {
         padding: 4px 8px;
     }
 
+    main .cover {
+        height: 350px;
+        background-image: url("../Images/cover.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-attachment: fixed; */
+        background-position: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 30px;
+    }
+
     .about-us {
-        margin-top: 10px;
+        margin: 20px 0;
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 15px;
+        flex-direction: column-reverse;
+        gap: 10px;
+        z-index: -1;
+        height: auto;
     }
 
-    .about-us .about-info,
-    .about-us .about-gallery {
-        height: 700px;
-        width: 50%;
-        /* background-color: red; */
-        padding: 30px;
+    .about-us .about-info {
+        height: auto;
+        width: 80%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: start;
+        padding: 0 10px;
+    }
+
+    .about-us .about-gallery {
+        height: auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px;
     }
 
     .about-us .about-info h1 {
-        font-size: 32px;
+        font-size: 34px;
+        letter-spacing: 3.2px;
         text-transform: uppercase;
-        color: #215387;
+        color: #0254B9;
     }
 
     .about-us .about-info .about-text p {
-        margin-top: 10px;
+        margin-top: 5px;
         font-size: 15px;
+        letter-spacing: 1px;
+    }
+
+    .container {
+        position: relative;
+        height: auto;
+        width: 95%;
     }
 
     .our-team .doctors {
@@ -2066,7 +2259,6 @@ main .main-service-list .main-services-item .item-info button:hover {
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        margin: 10px 0;
         gap: 5px;
     }
 
@@ -2078,7 +2270,6 @@ main .main-service-list .main-services-item .item-info button:hover {
         justify-content: center;
         align-items: center;
         flex-direction: row-reverse;
-        margin: 10px 0;
         gap: 5px;
     }
 
@@ -2107,10 +2298,11 @@ main .main-service-list .main-services-item .item-info button:hover {
     }
 
 
-    main .main-service-list .main-services-item .item-info h3 {
+    main .main-service-list .main-services-item .item-info h3 a {
         color: #0254B9;
         font-weight: bold;
-        font-size: 22px;
+        font-size: 18px;
+
     }
 
 
@@ -2348,7 +2540,7 @@ main .main-service-list .main-services-item .item-info button:hover {
         width: 95%;
         display: flex;
         justify-content: space-around;
-        align-items: center;
+        align-items: start;
         flex-wrap: wrap;
     }
 
@@ -2377,6 +2569,7 @@ main .main-service-list .main-services-item .item-info button:hover {
         display: flex;
         justify-content: start;
         align-items: center;
+        padding: 0;
     }
 
 
@@ -2416,8 +2609,16 @@ main .main-service-list .main-services-item .item-info button:hover {
         justify-content: center;
         align-items: center;
         gap: 10px;
-        width: 95%;
+        width: 100%;
         flex-wrap: wrap;
+    }
+
+    .faq-main .faq-col:last-child {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 30px;
+        padding: 0;
     }
 
     .faq-main .faq-col .faq-cover-text,
@@ -2463,7 +2664,7 @@ main .main-service-list .main-services-item .item-info button:hover {
     }
 
     .faqs-container {
-        width: 95%;
+        width: 85%;
         display: flex;
         justify-content: center;
         align-items: start;
@@ -2563,23 +2764,28 @@ main .main-service-list .main-services-item .item-info button:hover {
     }
 
     main .cover {
-        height: 400px;
+        height: 320px;
         background-image: url("../Images/cover.png");
         background-size: cover;
         background-repeat: no-repeat;
         /* background-attachment: fixed; */
         background-position: center;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
+        padding: 0 30px;
     }
 
     main .cover .cover-info .cover-text h2 {
-        font-size: 34px;
+        font-size: 30px;
     }
 
     .facilities .grid-item {
-        width: 100%;
+        width: 90%;
+    }
+
+    .services .service-list .buttons a {
+        width: 85%;
     }
 
     .web-footer .footer-address,
@@ -2725,7 +2931,7 @@ main .main-service-list .main-services-item .item-info button:hover {
     main .main-service-list .main-services-item:nth-child(odd) {
         width: 45%;
         /* background-color: yellow; */
-        height: 400px;
+        height: auto;
         display: flex;
         justify-content: start;
         align-items: start;
@@ -2739,7 +2945,7 @@ main .main-service-list .main-services-item .item-info button:hover {
     main .main-service-list .main-services-item:nth-child(even) {
         width: 45%;
         /* background-color: yellow; */
-        height: 400px;
+        height: auto;
         display: flex;
         justify-content: start;
         align-items: start;
@@ -2776,10 +2982,11 @@ main .main-service-list .main-services-item .item-info button:hover {
     }
 
 
-    main .main-service-list .main-services-item .item-info h3 {
+    main .main-service-list .main-services-item .item-info h3 a {
         color: #0254B9;
         font-weight: bold;
-        font-size: 22px;
+        font-size: 19px;
+        letter-spacing: 0.6px;
     }
 
 
@@ -3175,7 +3382,7 @@ main .main-service-list .main-services-item .item-info button:hover {
     }
 
     .faqs-container {
-        width: 95%;
+        width: 85%;
         display: flex;
         justify-content: center;
         align-items: start;
@@ -3257,31 +3464,45 @@ main .main-service-list .main-services-item .item-info button:hover {
 
 @media (max-width: 650px) {
     .upperNav {
-        padding: 0 7px;
-        justify-content: space-between;
-        font-size: 12px;
+        padding: 0 10px;
         height: 3.4rem;
         background-color: #0254b9;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         color: #fff;
+        font-size: 10px;
+    }
+
+    .upperNav p a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+
+    .upperNav .contact {
+        /* gap: 1rem; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     main .cover {
-        height: 300px;
+        height: 240px;
         background-image: url("../Images/cover.png");
         background-size: cover;
         background-repeat: no-repeat;
         /* background-attachment: fixed; */
         background-position: center;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
+        padding: 0 25px;
     }
 
     main .cover .cover-info .cover-text h2 {
-        font-size: 2rem;
+        font-size: 21px;
+        letter-spacing: 3px;
     }
 
     .contact {
@@ -3307,10 +3528,6 @@ main .main-service-list .main-services-item .item-info button:hover {
         display: flex;
         flex-direction: column;
         gap: 1rem;
-    }
-
-    main .cover .cover-info .cover-text h2 {
-        font-size: 27px;
     }
 
     .services .service-list h1 {
@@ -3377,11 +3594,6 @@ main .main-service-list .main-services-item .item-info button:hover {
     }
 
 
-    main .main-service-list .main-services-item .item-info h3 {
-        color: #0254B9;
-        font-weight: bold;
-        font-size: 22px;
-    }
 
 
     main .main-service-list .main-services-item .item-info p {
@@ -3461,6 +3673,13 @@ main .main-service-list .main-services-item .item-info button:hover {
         color: #fff;
     }
 
+    .web-footer,
+    .footer-address ul li a {
+        font-size: 15px;
+        text-decoration: none;
+        color: #fff;
+    }
+
     .web-footer .footer-contact .contact-list input {
         height: 35px;
         width: 190px;
@@ -3494,10 +3713,9 @@ main .main-service-list .main-services-item .item-info button:hover {
 
 @media (max-width: 400px) {
     .upperNav {
-        padding: 0 4px;
         justify-content: space-between;
         font-size: 10px;
-        height: 3.4rem;
+        height: 3rem;
         background-color: #0254b9;
         display: flex;
         justify-content: space-between;
@@ -3530,6 +3748,13 @@ main .main-service-list .main-services-item .item-info button:hover {
     .web-footer .footer-opening-hours ul li {
         font-size: 14px;
         margin-top: 10px;
+        color: #fff;
+    }
+
+    .web-footer,
+    .footer-address ul li a {
+        font-size: 14px;
+        text-decoration: none;
         color: #fff;
     }
 
