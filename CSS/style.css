@@ -41,7 +41,6 @@ header {
 .upperNav p a {
     color: #fff;
     text-decoration: none;
-    letter-spacing: 0.5px;
 }
 
 .contact {
@@ -62,7 +61,6 @@ header {
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.8px;
 }
 
 .bookAptBtn:hover {
@@ -126,7 +124,6 @@ header {
     color: black;
     transition: color 0.2s ease;
     font-weight: bold;
-    letter-spacing: 2px;
 }
 
 .lowerNav .navLinks ul li:hover {
@@ -180,7 +177,6 @@ main .cover .cover-info {
 
 main .cover .cover-info .cover-text h2 {
     font-size: 37px;
-    letter-spacing: 4.5px;
 }
 
 /* ---------- FACILITIES ---------- */
@@ -212,7 +208,6 @@ main .cover .cover-info .cover-text h2 {
     font-size: 17px;
     font-weight: bold;
     text-align: center;
-    letter-spacing: 2px;
 }
 
 .images video {
@@ -239,7 +234,6 @@ main .cover .cover-info .cover-text h2 {
 
 .services .service-list h1 {
     font-size: 39px;
-    letter-spacing: 7px;
     text-transform: uppercase;
 }
 
@@ -269,7 +263,6 @@ main .cover .cover-info .cover-text h2 {
     cursor: pointer;
     transition: 0.2s all ease-in-out;
     font-weight: bold;
-    letter-spacing: 2px;
 }
 
 .bab01 {
@@ -324,7 +317,6 @@ footer {
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
-    letter-spacing: 3px;
 }
 
 .web-footer .footer-address ul,
@@ -339,7 +331,6 @@ footer {
     font-size: 16px;
     margin-top: 10px;
     color: #fff;
-    letter-spacing: 1.2px;
 }
 
 .web-footer,
@@ -396,7 +387,6 @@ footer {
     font-weight: 500;
     text-decoration: none;
     color: #000000;
-    letter-spacing: 1.5px;
 }
 
 /* 4. ABOUT US */
@@ -435,7 +425,6 @@ footer {
 
 .about-us .about-info h1 {
     font-size: 35px;
-    letter-spacing: 3.5px;
     text-transform: uppercase;
     color: #0254B9;
 }
@@ -443,7 +432,6 @@ footer {
 .about-us .about-info .about-text p {
     margin-top: 5px;
     font-size: 15px;
-    letter-spacing: 1.2 px;
 }
 
 /* ---------- Carousel ---------- */
@@ -529,7 +517,6 @@ footer {
     font-size: 37px;
     text-transform: uppercase;
     padding: 10px 0;
-    letter-spacing: 5px;
 }
 
 .our-team .doctors {
@@ -560,7 +547,6 @@ footer {
     text-transform: uppercase;
     margin: 5px 0;
     text-align: center;
-    letter-spacing: 1.2px;
 }
 
 .our-team .doctor .linked-in i {
@@ -574,7 +560,6 @@ footer {
     font-size: 19px;
     margin: 5px 0;
     text-align: center;
-    letter-spacing: 1.2px;
 }
 
 .our-team .doctor .doctor-text {
@@ -584,8 +569,6 @@ footer {
 .our-team .doctor .doctor-text p {
     color: #ffffff;
     font-size: 16px;
-    letter-spacing: 1.3px;
-    line-height: 27px;
 }
 
 .our-team .doctor .doctor-text button {
@@ -652,7 +635,6 @@ footer {
     font-size: 28px;
     color: #ffffff;
     margin: 10px 0;
-    letter-spacing: 2px;
 }
 
 .team-msg .team-img {
@@ -707,12 +689,10 @@ main .main-services .main-service-image img {
 main .main-services .main-service-cover .main-service-header h2 {
     font-size: 35px;
     color: #0254B9;
-    letter-spacing: 3px;
 }
 
 main .main-services .main-service-cover .main-service-header p {
     font-size: 16px;
-    letter-spacing: 1.2px;
 }
 
 
@@ -790,13 +770,11 @@ main .main-service-list .main-services-item .item-info h3 a {
     color: #0254B9;
     font-weight: bold;
     font-size: 20px;
-    letter-spacing: 1.2px;
 }
 
 
 main .main-service-list .main-services-item .item-info p {
     font-size: 13px;
-    letter-spacing: 1px;
 }
 
 
@@ -860,23 +838,19 @@ main .main-service-list .main-services-item .item-info button:hover {
 .serv-col .serv-cov-txt h2 {
     color: #0254B9;
     font-size: 26px;
-    letter-spacing: 3px;
 }
 
 .serv-col .serv-cov-txt h2.pay-h2 {
     font-size: 26px;
     color: #0254B9;
-    letter-spacing: 3px;
 }
 
 .serv-col .serv-cov-txt h4 {
     font-size: 15px;
-    letter-spacing: 1.2px;
 }
 
 .serv-col .serv-cov-txt p {
     font-size: 16px;
-    letter-spacing: 1.4px;
 }
 
 .serv-col .serv-cov-img img {
@@ -896,7 +870,6 @@ main .main-service-list .main-services-item .item-info button:hover {
 .serv-avail h2 {
     font-size: 24px;
     color: #00b4d8;
-    letter-spacing: 2px;
 }
 
 .serv-avail .serv-list {
@@ -920,12 +893,10 @@ main .main-service-list .main-services-item .item-info button:hover {
 .serv-avail .serv-list .serv-item h4 {
     font-size: 18px;
     color: #0254B9;
-    letter-spacing: 2px;
 }
 
 .serv-avail .serv-list .serv-item p {
     font-size: 16px;
-    letter-spacing: 1.2px;
 }
 
 .serv-avail .serv-list .serv-item button,
@@ -991,7 +962,6 @@ main .main-service-list .main-services-item .item-info button:hover {
 .qna-item .qna-text h3 {
     font-size: 18px;
     color: #0254B9;
-    letter-spacing: 1.3px;
 }
 
 .faq-list .faq-text p,
@@ -999,7 +969,6 @@ main .main-service-list .main-services-item .item-info button:hover {
 .faq-list .faq-text ul li,
 .qna-item .qna-text ul li {
     font-size: 16px;
-    letter-spacing: 1.2px;
 }
 
 .serv-qna {
@@ -1037,7 +1006,6 @@ main .main-service-list .main-services-item .item-info button:hover {
 .bookSchedule h4 {
     font-size: 18px;
     color: #00b4d8;
-    letter-spacing: 1.5px;
 }
 
 .bookSchedule button {
@@ -1060,12 +1028,12 @@ main .main-service-list .main-services-item .item-info button:hover {
 
 .bookSchedule button.payBtn {
     height: 45px;
-    width: 280px;
+    width: 300px;
     color: #fff;
     background-color: #0254B9;
     border: none;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 17px;
     transition: 0.2s all ease-in-out;
 }
 
@@ -1109,7 +1077,6 @@ main .main-service-list .main-services-item .item-info button:hover {
     color: #0254B9;
     text-transform: uppercase;
     margin-bottom: 20px;
-    letter-spacing: 2px;
 }
 
 .contact-main .contact-col ul li,
@@ -1117,7 +1084,6 @@ main .main-service-list .main-services-item .item-info button:hover {
     list-style: none;
     font-size: 18px;
     color: #000000;
-    letter-spacing: 1.4px;
 }
 
 .contact-main .contact-col:last-child {
@@ -1131,7 +1097,6 @@ main .main-service-list .main-services-item .item-info button:hover {
 .contact-main .contact-col h3 {
     font-size: 24px;
     color: #00b4d8;
-    letter-spacing: 1.2px;
 }
 
 .contact-main .contact-col button {
@@ -1191,12 +1156,10 @@ main .main-service-list .main-services-item .item-info button:hover {
 .faq-cover-text h3 {
     font-size: 25px;
     color: #0254B9;
-    letter-spacing: 1.7px;
 }
 
 .faq-cover-text p {
     font-size: 16px;
-    letter-spacing: 1.2px;
 }
 
 .faq-cover-image img {
@@ -1228,7 +1191,6 @@ main .main-service-list .main-services-item .item-info button:hover {
     outline: none;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
-    letter-spacing: 1;
 }
 
 .faq-col .faq-button a button:hover {
@@ -1249,7 +1211,6 @@ main .main-service-list .main-services-item .item-info button:hover {
 .faq-col:last-child h3 {
     font-size: 24px;
     color: #00b4d8;
-    letter-spacing: 1.2px;
 }
 
 .faq-col:last-child button {
@@ -1283,7 +1244,6 @@ main .main-service-list .main-services-item .item-info button:hover {
 .faqs-container h3 {
     font-size: 33px;
     color: #0254B9;
-    letter-spacing: 1.8px;
 }
 
 .faqs-container .faqs-qna-list {
@@ -1308,12 +1268,10 @@ main .main-service-list .main-services-item .item-info button:hover {
 .faqs-qna-list .faqs-qna h4 {
     font-size: 20px;
     color: #0254B9;
-    letter-spacing: 1.3px;
 }
 
 .faqs-qna-list .faqs-qna p {
     font-size: 16px;
-    letter-spacing: 1.1px;
 }
 
 .faqs-qna-list .faqs-qna button {
@@ -1326,7 +1284,6 @@ main .main-service-list .main-services-item .item-info button:hover {
     transition: all 0.2s ease-in-out;
     cursor: pointer;
     text-align: left;
-    letter-spacing: 1.1px;
 }
 
 .faqs-qna-list .faqs-qna button:hover {
@@ -1349,13 +1306,11 @@ main .main-service-list .main-services-item .item-info button:hover {
     width: 60%;
     font-size: 19px;
     color: #00b4d8;
-    letter-spacing: 1.4px;
 }
 
 .book-schedule button {
     height: 45px;
     width: 200px;
-    letter-spacing: 1.1px;
     color: #fff;
     background-color: #0254B9;
     font-size: 18px;
@@ -1593,7 +1548,6 @@ main .main-service-list .main-services-item .item-info button:hover {
 
     .about-us .about-info h1 {
         font-size: 34px;
-        letter-spacing: 3.2px;
         text-transform: uppercase;
         color: #0254B9;
     }
@@ -1601,7 +1555,6 @@ main .main-service-list .main-services-item .item-info button:hover {
     .about-us .about-info .about-text p {
         margin-top: 5px;
         font-size: 15px;
-        letter-spacing: 1px;
     }
 
     .container {
@@ -1889,7 +1842,7 @@ main .main-service-list .main-services-item .item-info button:hover {
 
     .bookSchedule button.payBtn {
         height: 40px;
-        width: 240px;
+        width: 280px;
         color: #fff;
         background-color: #0254B9;
         border: none;
@@ -2144,7 +2097,6 @@ main .main-service-list .main-services-item .item-info button:hover {
 
     .about-us .about-info h1 {
         font-size: 34px;
-        letter-spacing: 3.2px;
         text-transform: uppercase;
         color: #0254B9;
     }
@@ -2152,7 +2104,6 @@ main .main-service-list .main-services-item .item-info button:hover {
     .about-us .about-info .about-text p {
         margin-top: 5px;
         font-size: 15px;
-        letter-spacing: 1px;
     }
 
     .container {
@@ -2505,7 +2456,7 @@ main .main-service-list .main-services-item .item-info button:hover {
 
     .bookSchedule button.payBtn {
         height: 40px;
-        width: 200px;
+        width: 240px;
         color: #fff;
         background-color: #0254B9;
         border: none;
@@ -2803,7 +2754,6 @@ main .main-service-list .main-services-item .item-info button:hover {
 
     .services .service-list h1 {
         font-size: 33px;
-        letter-spacing: 4px;
         text-transform: uppercase;
     }
 
@@ -2820,7 +2770,6 @@ main .main-service-list .main-services-item .item-info button:hover {
         cursor: pointer;
         transition: 0.2s all ease-in-out;
         font-weight: bold;
-        letter-spacing: 1px;
     }
 
     .lowerNav .logo img {
@@ -2987,7 +2936,6 @@ main .main-service-list .main-services-item .item-info button:hover {
         color: #0254B9;
         font-weight: bold;
         font-size: 19px;
-        letter-spacing: 0.6px;
     }
 
 
@@ -3503,7 +3451,6 @@ main .main-service-list .main-services-item .item-info button:hover {
 
     main .cover .cover-info .cover-text h2 {
         font-size: 21px;
-        letter-spacing: 3px;
     }
 
     .contact {
@@ -3533,7 +3480,6 @@ main .main-service-list .main-services-item .item-info button:hover {
 
     .services .service-list h1 {
         font-size: 27px;
-        letter-spacing: 4px;
         text-transform: uppercase;
     }
 
@@ -3716,7 +3662,6 @@ main .main-service-list .main-services-item .item-info button:hover {
         list-style: none;
         font-size: 16px;
         color: #000000;
-        letter-spacing: 1.4px;
     }
 
 }
