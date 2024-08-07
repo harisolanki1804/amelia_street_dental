@@ -17,8 +17,36 @@
     position: fixed;
 }
 
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: 1.8px;
+}
+
+p,
+a,
+li {
+    letter-spacing: 0.8px;
+}
+
+
 a {
     text-decoration: none;
+}
+
+
+#background-video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 /* 1. HEADER :- */
@@ -108,6 +136,8 @@ header {
 .lowerNav .navLinks ul li {
     padding: 6px 12px;
     cursor: pointer;
+    position: relative;
+    transition: 0.4s all ease-in-out;
 }
 
 .lowerNav .navLinks ul li.active {
@@ -134,6 +164,43 @@ header {
 .lowerNav .navLinks ul li:hover a {
     transition: 0.2s all ease-in-out;
     color: #ffffff;
+}
+
+
+.navLinks li ul.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #0254B9;
+    border: none;
+    padding: 7px;
+    display: none;
+    width: 120px;
+}
+
+.navLinks li:hover ul.dropdown {
+    display: block;
+}
+
+.navLinks li ul.dropdown li {
+    width: 100%;
+}
+
+.navLinks li ul.dropdown li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+}
+
+
+.navLinks li ul.dropdown li:hover {
+    background-color: #FFFFFF;
+    /* color: #0254B9; */
+}
+
+.navLinks li ul.dropdown li:hover a {
+    /* background-color: #FFFFFF; */
+    color: #0254B9;
 }
 
 .hamburger {
@@ -379,10 +446,13 @@ footer {
     text-decoration: none;
 }
 
-.copyright,
-.copyright a {
-    text-align: center;
+.copyright {
     padding: 10px 0;
+    text-align: center;
+}
+
+.copyright a {
+    background-color: #fff;
     font-size: 17px;
     font-weight: 500;
     text-decoration: none;
@@ -2657,6 +2727,16 @@ main .main-service-list .main-services-item .item-info button:hover {
 }
 
 @media (max-width: 768px) {
+
+    *:hover {
+        /* override default hover styles */
+        text-decoration: none;
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+        /* add more properties as needed */
+    }
+
     .hamburger {
         display: block;
     }
@@ -2669,7 +2749,7 @@ main .main-service-list .main-services-item .item-info button:hover {
         right: 0;
         width: 100vw;
         height: 100vh;
-        background-color: #0254b9;
+        background-color: #fff;
         transition: 0.2s;
         overflow: hidden;
         z-index: 2;
@@ -2710,9 +2790,72 @@ main .main-service-list .main-services-item .item-info button:hover {
         background: none;
     }
 
+    .lowerNav .navLinks ul li.active a {
+        color: #000000;
+    }
+
     .lowerNav .navLinks ul li a {
         font-size: 27px;
+        color: #0254B9;
     }
+
+
+    .navLinks ul {
+        flex-direction: column;
+    }
+
+    .navLinks li {
+        width: 100%;
+    }
+
+    .navLinks li a {
+        padding: 10px;
+    }
+
+    .navLinks li:last-child a {
+        border-bottom: none;
+    }
+
+    .navLinks li ul.dropdown {
+        /* position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #b90202;
+        border: none;
+        padding: 0; */
+        display: none;
+        /* width: 300px;
+        height: 100%;
+        z-index: 2; */
+    }
+
+    .navLinks li:hover ul.dropdown {
+        display: none;
+    }
+
+    /* .navLinks li ul.dropdown li {
+        width: 100%;
+    }
+
+    .navLinks li ul.dropdown li a {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .navLinks li.dropdown-toggle {
+        cursor: pointer;
+    }
+
+    .navLinks li.dropdown-toggle::after {
+        content: "\25BC";
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .navLinks li.dropdown-toggle.active::after {
+        content: "\25B2";
+    } */
 
     main .cover {
         height: 320px;
@@ -2957,11 +3100,12 @@ main .main-service-list .main-services-item .item-info button:hover {
         cursor: pointer;
     }
 
+    /* 
     main .main-service-list .main-services-item .item-info button:hover {
         background-color: #ffff;
         color: #0254B9;
         border: 1px solid #0254B9;
-    }
+    } */
 
 
     .serv-col:nth-child(1) {
@@ -3134,12 +3278,12 @@ main .main-service-list .main-services-item .item-info button:hover {
         transition: 0.2s all ease-in-out;
     }
 
-    .bookSchedule button:hover {
+    /* .bookSchedule button:hover {
         color: #0254B9;
         background-color: #fff;
         border: 2px solid #0254B9;
         font-weight: bold;
-    }
+    } */
 
     .bookSchedule button.payBtn {
         height: 45px;
@@ -3152,12 +3296,12 @@ main .main-service-list .main-services-item .item-info button:hover {
         transition: 0.2s all ease-in-out;
     }
 
-    .bookSchedule button.payBtn:hover {
+    /* .bookSchedule button.payBtn:hover {
         color: #0254B9;
         background-color: #fff;
         border: 2px solid #0254B9;
         font-weight: bold;
-    }
+    } */
 
     .contact-main {
         display: flex;
@@ -3232,11 +3376,11 @@ main .main-service-list .main-services-item .item-info button:hover {
         font-weight: bold;
     }
 
-    .contact-main .contact-col button:hover {
+    /* .contact-main .contact-col button:hover {
         border: 2px solid #0254B9;
         color: #0254B9;
         background-color: white;
-    }
+    } */
 
     .contact-main .contact-col .contact-cover img {
         width: 100%;
@@ -3324,11 +3468,11 @@ main .main-service-list .main-services-item .item-info button:hover {
         cursor: pointer;
     }
 
-    .faq-col .faq-button a button:hover {
+    /* .faq-col .faq-button a button:hover {
         background-color: #FFFFFF;
         color: #0254B9;
         border: 2px solid #0254B9;
-    }
+    } */
 
     .faqs-container {
         width: 85%;
@@ -3399,11 +3543,11 @@ main .main-service-list .main-services-item .item-info button:hover {
         transition: 0.2s all ease-in-out;
     }
 
-    .book-schedule button:hover {
+    /* .book-schedule button:hover {
         border: 2px solid #0254B9;
         color: #0254B9;
         background-color: #fff;
-    }
+    } */
 
     .our-team .doctor .doctor-text p {
         color: #ffffff;
@@ -3561,11 +3705,11 @@ main .main-service-list .main-services-item .item-info button:hover {
         cursor: pointer;
     }
 
-    main .main-service-list .main-services-item .item-info button:hover {
+    /* main .main-service-list .main-services-item .item-info button:hover {
         background-color: #ffff;
         color: #0254B9;
         border: 1px solid #0254B9;
-    }
+    } */
 
     .bookSchedule {
         width: 85%;
@@ -3597,12 +3741,12 @@ main .main-service-list .main-services-item .item-info button:hover {
         transition: 0.2s all ease-in-out;
     }
 
-    .bookSchedule button:hover {
+    /* .bookSchedule button:hover {
         color: #0254B9;
         background-color: #fff;
         border: 2px solid #0254B9;
         font-weight: bold;
-    }
+    } */
 
     .web-footer .footer-address h2,
     .web-footer .footer-opening-hours h2,

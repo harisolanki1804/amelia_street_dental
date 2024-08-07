@@ -14,7 +14,7 @@ hamburger.addEventListener('click', () => {
     }
 
     if (navLinks.classList.contains('active')) {
-        icon.style.color = "#FFFFFF";
+        icon.style.color = "#0254b9";
         document.body.classList.add('no-scroll');
     } else {
         icon.style.color = "#0254b9";
@@ -56,7 +56,7 @@ function showSlides(n) {
     captionText.innerHTML = dots[slideIndex - 1].alt;
 }
 
-setInterval(function() {
+setInterval(function () {
     plusSlides(1);
 }, 200);
 
@@ -233,3 +233,16 @@ function openLink(link) {
 function openPage(page) {
     window.open(page, "_parent");
 }
+
+
+
+
+// Dropdowns
+
+// Add event listener to dropdown toggles
+// document.querySelectorAll('.navLinks li.dropdown-toggle').forEach(function (toggle) {
+//     toggle.addEventListener('click', function () {
+//         toggle.classList.toggle('active');
+//         toggle.nextElementSibling.classList.toggle('active');
+//     });
+// });
