@@ -240,9 +240,10 @@ function openPage(page) {
 // Dropdowns
 
 // Add event listener to dropdown toggles
-// document.querySelectorAll('.navLinks li.dropdown-toggle').forEach(function (toggle) {
-//     toggle.addEventListener('click', function () {
-//         toggle.classList.toggle('active');
-//         toggle.nextElementSibling.classList.toggle('active');
-//     });
-// });
+document.querySelectorAll('.navLinks li.dropdown-toggle').forEach(function (toggle) {
+    toggle.addEventListener('click', function () {
+        toggle.classList.toggle('active');
+        toggle.nextElementSibling.classList.toggle('active');
+    });
+});
+

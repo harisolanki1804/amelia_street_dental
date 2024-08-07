@@ -123,7 +123,10 @@ header {
 }
 
 .lowerNav .navLinks {
-    display: block;
+    /* display: block; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .lowerNav .navLinks ul {
@@ -131,6 +134,9 @@ header {
     align-items: center;
     justify-content: center;
     list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
 }
 
 .lowerNav .navLinks ul li {
@@ -170,12 +176,12 @@ header {
 .navLinks li ul.dropdown {
     position: absolute;
     top: 100%;
-    left: 0;
+    left: 0%;
     background-color: #0254B9;
     border: none;
     padding: 7px;
     display: none;
-    width: 120px;
+    width: 180px;
 }
 
 .navLinks li:hover ul.dropdown {
@@ -195,11 +201,9 @@ header {
 
 .navLinks li ul.dropdown li:hover {
     background-color: #FFFFFF;
-    /* color: #0254B9; */
 }
 
 .navLinks li ul.dropdown li:hover a {
-    /* background-color: #FFFFFF; */
     color: #0254B9;
 }
 
@@ -449,10 +453,10 @@ footer {
 .copyright {
     padding: 10px 0;
     text-align: center;
+    background-color: #fff;
 }
 
 .copyright a {
-    background-color: #fff;
     font-size: 17px;
     font-weight: 500;
     text-decoration: none;
@@ -2728,15 +2732,6 @@ main .main-service-list .main-services-item .item-info button:hover {
 
 @media (max-width: 768px) {
 
-    *:hover {
-        /* override default hover styles */
-        text-decoration: none;
-        background-color: transparent;
-        border: none;
-        box-shadow: none;
-        /* add more properties as needed */
-    }
-
     .hamburger {
         display: block;
     }
@@ -2791,14 +2786,13 @@ main .main-service-list .main-services-item .item-info button:hover {
     }
 
     .lowerNav .navLinks ul li.active a {
-        color: #000000;
+        color: #00b4d8;
     }
 
     .lowerNav .navLinks ul li a {
         font-size: 27px;
         color: #0254B9;
     }
-
 
     .navLinks ul {
         flex-direction: column;
@@ -2816,35 +2810,41 @@ main .main-service-list .main-services-item .item-info button:hover {
         border-bottom: none;
     }
 
-    .navLinks li ul.dropdown {
-        /* position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: #b90202;
-        border: none;
-        padding: 0; */
-        display: none;
-        /* width: 300px;
-        height: 100%;
-        z-index: 2; */
-    }
 
     .navLinks li:hover ul.dropdown {
         display: none;
     }
 
-    /* .navLinks li ul.dropdown li {
+    /* .navLinks li ul.dropdown {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #0254B9;
+        border: none;
+        padding: 0;
+        display: none;
+        width: 300px;
+        height: 200px;
+        z-index: 2;
+    }
+
+    .navLinks li ul.dropdown li {
         width: 100%;
+        height: fit-content;
+        text-align: center;
+        padding: 10px;
+        margin: 10px 0;
     }
 
     .navLinks li ul.dropdown li a {
-        padding: 10px;
-        font-size: 16px;
+        font-size: 15px;
+        color: #fff;
     }
 
     .navLinks li.dropdown-toggle {
         cursor: pointer;
+        display: none;
     }
 
     .navLinks li.dropdown-toggle::after {
