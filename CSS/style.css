@@ -24,13 +24,13 @@ h3,
 h4,
 h5,
 h6 {
-    letter-spacing: 1.8px;
+    letter-spacing: 1.3px;
 }
 
 p,
 a,
 li {
-    letter-spacing: 0.8px;
+    letter-spacing: 0.6px;
 }
 
 
@@ -79,16 +79,16 @@ header {
 }
 
 .bookAptBtn {
-    padding: 10px;
     height: 40px;
     width: 200px;
     background-color: #219ad0;
     border: 1px solid white;
     outline: none;
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .bookAptBtn:hover {
@@ -182,6 +182,7 @@ header {
     padding: 7px;
     display: none;
     width: 180px;
+    z-index: 5;
 }
 
 .navLinks li:hover ul.dropdown {
