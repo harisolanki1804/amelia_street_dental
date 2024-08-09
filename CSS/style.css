@@ -1403,6 +1403,75 @@ main .main-service-list .main-services-item .item-info button:hover {
 }
 
 
+/* PAYMENTS :-  */
+
+.financial-services {
+    width: 60%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.fin-details {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    height: auto;
+    gap: 40px;
+}
+
+.fin-details .financial-services {
+    width: 100%;
+}
+
+.fin-serv-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 220px;
+    width: 220px;
+}
+
+.fin-details h3 {
+    color: #0254B9;
+    font-size: 21px;
+}
+
+.fin-serv-item a {
+    height: 220px;
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.fin-serv-item a img {
+    height: 150px;
+    width: 150px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.fin-serv-item a p {
+    font-size: 18px;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+
+
 
 
 
@@ -2110,6 +2179,68 @@ main .main-service-list .main-services-item .item-info button:hover {
         color: #0254B9;
         background-color: #fff;
     }
+
+    .financial-services {
+        width: 85%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .fin-details {
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        height: auto;
+        gap: 40px;
+    }
+
+    .fin-details .financial-services {
+        width: 100%;
+    }
+
+    .fin-serv-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 220px;
+        width: 220px;
+    }
+
+    .fin-details h3 {
+        color: #0254B9;
+        font-size: 21px;
+    }
+
+    .fin-serv-item a {
+        height: 220px;
+        width: 220px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .fin-serv-item a img {
+        height: 150px;
+        width: 150px;
+        aspect-ratio: 1/1;
+        object-fit: contain;
+        border-radius: 50%;
+    }
+
+    .fin-serv-item a p {
+        font-size: 18px;
+        color: #000000;
+        font-weight: bold;
+        text-align: center;
+    }
 }
 
 
@@ -2734,6 +2865,68 @@ main .main-service-list .main-services-item .item-info button:hover {
         font-size: 18px;
         color: #00b4d8;
         text-align: left;
+    }
+
+    .financial-services {
+        width: 90%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .fin-details {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        height: auto;
+        gap: 30px;
+    }
+
+    .fin-details .financial-services {
+        width: 100%;
+    }
+
+    .fin-serv-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 180px;
+        width: 180px;
+    }
+
+    .fin-details h3 {
+        color: #0254B9;
+        font-size: 20px;
+    }
+
+    .fin-serv-item a {
+        height: 180px;
+        width: 180px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .fin-serv-item a img {
+        height: 120px;
+        width: 120px;
+        aspect-ratio: 1/1;
+        object-fit: contain;
+        border-radius: 50%;
+    }
+
+    .fin-serv-item a p {
+        font-size: 15px;
+        color: #000000;
+        font-weight: bold;
+        text-align: center;
     }
 }
 
@@ -3565,6 +3758,68 @@ main .main-service-list .main-services-item .item-info button:hover {
     .our-team .doctor .doctor-text p {
         color: #ffffff;
         font-size: 17px;
+    }
+
+    .financial-services {
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .fin-details {
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        gap: 30px;
+    }
+
+    .fin-details .financial-services {
+        width: 100%;
+    }
+
+    .fin-serv-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 150px;
+        width: 150px;
+    }
+
+    .fin-details h3 {
+        color: #0254B9;
+        font-size: 16px;
+    }
+
+    .fin-serv-item a {
+        height: 150px;
+        width: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        gap: 7px;
+    }
+
+    .fin-serv-item a img {
+        height: 100px;
+        width: 100px;
+        aspect-ratio: 1/1;
+        object-fit: contain;
+        border-radius: 50%;
+    }
+
+    .fin-serv-item a p {
+        font-size: 11px;
+        color: #000000;
+        font-weight: bold;
+        text-align: center;
     }
 }
 
