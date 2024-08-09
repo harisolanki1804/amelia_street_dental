@@ -782,7 +782,7 @@ main .main-service-list {
 
 main .main-service-list .main-services-item {
     width: 50%;
-    height: 270px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -812,7 +812,7 @@ main .main-service-list .main-services-item .item-image {
 
 main .main-service-list .main-services-item .item-info {
     width: 50%;
-    height: 270px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -821,13 +821,13 @@ main .main-service-list .main-services-item .item-info {
 
 
 main .main-service-list .main-services-item .item-info .item-content {
-    width: 85%;
-    height: 100%;
+    width: 90%;
+    height: 80%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: start;
     flex-direction: column;
-    gap: 15px;
+    /* gap: px; */
 }
 
 main .main-service-list .main-services-item .item-image a {
@@ -844,12 +844,12 @@ main .main-service-list .main-services-item .item-image img {
 main .main-service-list .main-services-item .item-info h3 a {
     color: #0254B9;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 
 main .main-service-list .main-services-item .item-info p {
-    font-size: 13px;
+    font-size: 12px;
 }
 
 
@@ -859,7 +859,7 @@ main .main-service-list .main-services-item .item-info button {
     height: 40px;
     width: 160px;
     border: none;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
@@ -1075,7 +1075,7 @@ main .main-service-list .main-services-item .item-info button:hover {
 }
 
 .bookSchedule .SchText {
-    width: 55%;
+    width: 65%;
 }
 
 .bookSchedule h4 {
@@ -1085,7 +1085,7 @@ main .main-service-list .main-services-item .item-info button:hover {
 
 .bookSchedule button {
     height: 45px;
-    width: 180px;
+    width: 200px;
     color: #fff;
     background-color: #0254B9;
     border: none;
@@ -1690,7 +1690,7 @@ main .main-service-list .main-services-item .item-info button:hover {
 
     main .main-service-list .main-services-item {
         width: 50%;
-        height: 220px;
+        height: 250px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1720,7 +1720,7 @@ main .main-service-list .main-services-item .item-info button:hover {
 
     main .main-service-list .main-services-item .item-info {
         width: 50%;
-        height: 100%;
+        height: 250px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1730,12 +1730,11 @@ main .main-service-list .main-services-item .item-info button:hover {
 
     main .main-service-list .main-services-item .item-info .item-content {
         width: 90%;
-        height: 100%;
+        height: 90%;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: start;
         flex-direction: column;
-        gap: 10px;
     }
 
     main .main-service-list .main-services-item .item-image a {
@@ -1752,20 +1751,20 @@ main .main-service-list .main-services-item .item-info button:hover {
     main .main-service-list .main-services-item .item-info h3 a {
         color: #0254B9;
         font-weight: bold;
-        font-size: 19px;
+        font-size: 17px;
     }
 
 
     main .main-service-list .main-services-item .item-info p {
-        font-size: 12px;
+        font-size: 10px;
     }
 
 
     main .main-service-list .main-services-item .item-info button {
         background-color: #0254B9;
         color: #fff;
-        height: 30px;
-        width: 120px;
+        height: 35px;
+        width: 150px;
         border: none;
         font-size: 13px;
         font-weight: 600;
@@ -1889,17 +1888,17 @@ main .main-service-list .main-services-item .item-info button:hover {
     }
 
     .bookSchedule .SchText {
-        width: 60%;
+        width: 80%;
     }
 
     .bookSchedule h4 {
-        font-size: 20px;
+        font-size: 17px;
         color: #00b4d8;
     }
 
     .bookSchedule button {
         height: 40px;
-        width: 160px;
+        width: 180px;
         color: #fff;
         background-color: #0254B9;
         border: none;
@@ -2503,11 +2502,11 @@ main .main-service-list .main-services-item .item-info button:hover {
     }
 
     .bookSchedule .SchText {
-        width: 70%;
+        width: 80%;
     }
 
     .bookSchedule h4 {
-        font-size: 19px;
+        font-size: 16px;
         color: #00b4d8;
     }
 
@@ -2518,7 +2517,7 @@ main .main-service-list .main-services-item .item-info button:hover {
         background-color: #0254B9;
         border: none;
         cursor: pointer;
-        font-size: 17px;
+        font-size: 15px;
         transition: 0.2s all ease-in-out;
     }
 
@@ -2644,7 +2643,7 @@ main .main-service-list .main-services-item .item-info button:hover {
         justify-content: start;
         align-items: center;
         gap: 30px;
-        padding: 0;
+        padding-left: 30px;
     }
 
     .faq-main .faq-col .faq-cover-text,
@@ -2728,6 +2727,13 @@ main .main-service-list .main-services-item .item-info button:hover {
 
     .faqs-qna-list .faqs-qna p {
         font-size: 14px;
+    }
+
+    .book-schedule h4 {
+        width: 100%;
+        font-size: 18px;
+        color: #00b4d8;
+        text-align: left;
     }
 }
 
@@ -3248,6 +3254,10 @@ main .main-service-list .main-services-item .item-info button:hover {
         font-size: 14px;
     }
 
+    .faq-main .faq-col:last-child {
+        padding: 0;
+    }
+
     .serv-qna {
         width: 85%;
     }
@@ -3256,11 +3266,13 @@ main .main-service-list .main-services-item .item-info button:hover {
         width: 85%;
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: start;
+        flex-wrap: wrap;
+        gap: 15px;
     }
 
     .bookSchedule .SchText {
-        width: 70%;
+        width: 100%;
     }
 
     .bookSchedule h4 {
@@ -3269,13 +3281,13 @@ main .main-service-list .main-services-item .item-info button:hover {
     }
 
     .bookSchedule button {
-        height: 30px;
-        width: 150px;
+        height: 40px;
+        width: 160px;
         color: #fff;
         background-color: #0254B9;
         border: none;
         cursor: pointer;
-        font-size: 15px;
+        font-size: 16px;
         transition: 0.2s all ease-in-out;
     }
 
@@ -3293,7 +3305,7 @@ main .main-service-list .main-services-item .item-info button:hover {
         background-color: #0254B9;
         border: none;
         cursor: pointer;
-        font-size: 15px;
+        font-size: 14px;
         transition: 0.2s all ease-in-out;
     }
 
@@ -3356,22 +3368,22 @@ main .main-service-list .main-services-item .item-info button:hover {
     .contact-main .contact-col:last-child {
         display: flex;
         justify-content: space-evenly;
-        align-items: center;
+        align-items: start;
     }
 
 
     .contact-main .contact-col h3 {
-        font-size: 22px;
+        font-size: 19px;
         color: #00b4d8;
     }
 
     .contact-main .contact-col button {
         height: 40px;
-        width: 160px;
+        width: 140px;
         background-color: #0254B9;
         border: none;
         color: #ffffff;
-        font-size: 21px;
+        font-size: 20px;
         transition: all 0.2s ease-in-out;
         cursor: pointer;
         font-weight: bold;
@@ -3518,7 +3530,7 @@ main .main-service-list .main-services-item .item-info button:hover {
 
     .book-schedule {
         display: flex;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
         flex-wrap: wrap;
         gap: 20px;
@@ -3528,7 +3540,7 @@ main .main-service-list .main-services-item .item-info button:hover {
         width: 100%;
         font-size: 18px;
         color: #00b4d8;
-        text-align: center;
+        text-align: left;
     }
 
     .book-schedule button {
@@ -3716,7 +3728,7 @@ main .main-service-list .main-services-item .item-info button:hover {
         width: 85%;
         display: flex;
         /* justify-content: space-between; */
-        align-items: center;
+        align-items: start;
         flex-direction: column;
         gap: 20px;
     }
@@ -3726,19 +3738,19 @@ main .main-service-list .main-services-item .item-info button:hover {
     }
 
     .bookSchedule h4 {
-        font-size: 16px;
+        font-size: 14px;
         color: #00b4d8;
-        text-align: center;
+        text-align: start;
     }
 
     .bookSchedule button {
-        height: 40px;
-        width: 170px;
+        height: 35px;
+        width: 160px;
         color: #fff;
         background-color: #0254B9;
         border: none;
         cursor: pointer;
-        font-size: 17px;
+        font-size: 14px;
         transition: 0.2s all ease-in-out;
     }
 
@@ -3870,5 +3882,10 @@ main .main-service-list .main-services-item .item-info button:hover {
         cursor: pointer;
         transition: 0.2s all ease-in-out;
         font-weight: bold;
+    }
+
+    .faq-col:last-child h3 {
+        font-size: 18px;
+        color: #00b4d8;
     }
 }
