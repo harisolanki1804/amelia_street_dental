@@ -1161,7 +1161,7 @@ main .main-service-list .main-services-item .item-info button:hover {
     color: #000000;
 }
 
-.contact-main .contact-col:last-child {
+.contact-main .Sch {
     display: flex;
     justify-content: start;
     align-items: center;
@@ -1274,7 +1274,7 @@ main .main-service-list .main-services-item .item-info button:hover {
     border: 2px solid #0254B9;
 }
 
-.contact-main .contact-col:last-child,
+.contact-main .Sch,
 .faq-main .faq-col:last-child {
     display: flex;
     justify-content: start;
@@ -1467,6 +1467,10 @@ main .main-service-list .main-services-item .item-info button:hover {
     text-align: center;
 }
 
+.contact-main .contact-col iframe {
+    width: 100%;
+    height: 450px;
+}
 
 
 
@@ -2045,7 +2049,7 @@ main .main-service-list .main-services-item .item-info button:hover {
         font-size: 19px;
     }
 
-    .contact-main .contact-col:last-child {
+    .contact-main .Sch {
         display: flex;
         justify-content: start;
         align-items: center;
@@ -2240,6 +2244,11 @@ main .main-service-list .main-services-item .item-info button:hover {
         color: #000000;
         font-weight: bold;
         text-align: center;
+    }
+
+    .contact-main .contact-col iframe {
+        width: 100%;
+        height: 400px;
     }
 }
 
@@ -2721,7 +2730,7 @@ main .main-service-list .main-services-item .item-info button:hover {
         font-size: 17px;
     }
 
-    .contact-main .contact-col:last-child {
+    .contact-main .Sch {
         display: flex;
         justify-content: start;
         align-items: center;
@@ -3558,7 +3567,7 @@ main .main-service-list .main-services-item .item-info button:hover {
         font-size: 17px;
     }
 
-    .contact-main .contact-col:last-child {
+    .contact-main .Sch {
         display: flex;
         justify-content: space-evenly;
         align-items: start;
@@ -3820,6 +3829,11 @@ main .main-service-list .main-services-item .item-info button:hover {
         color: #000000;
         font-weight: bold;
         text-align: center;
+    }
+
+    .contact-main .contact-col iframe {
+        width: 100%;
+        height: 250px;
     }
 }
 
