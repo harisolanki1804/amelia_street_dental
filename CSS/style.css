@@ -62,8 +62,7 @@ header {
     justify-content: space-evenly;
     align-items: center;
     color: #fff;
-    font-size: 1rem;
-    font-weight: 600;
+    font-size: 17px;
 }
 
 .upperNav p a {
@@ -72,21 +71,21 @@ header {
 }
 
 .contact {
-    gap: 1rem;
+    gap: 10px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .bookAptBtn {
-    height: 40px;
+    height: 35px;
     width: 200px;
     background-color: #219ad0;
-    border: 1px solid white;
+    border: 2px solid white;
     outline: none;
     color: #fff;
     font-size: 16px;
-    font-weight: 700;
+    letter-spacing: 1.2px;
     text-transform: uppercase;
     text-align: center;
 }
@@ -95,8 +94,9 @@ header {
     background-color: #fff;
     color: #219ad0;
     transition: 0.3s all ease-in-out;
-    border: 1px solid #219ad0;
+    border: 2px solid #219ad0;
     cursor: pointer;
+    font-weight: bold;
 }
 
 /* ---------- LOWERNAV ---------- */
@@ -1648,7 +1648,7 @@ main .main-service-list .main-services-item .item-info button:hover {
     }
 
     .facilities .grid-item {
-        width: 33%;
+        width: 20%;
     }
 
     .web-footer .footer-address,
@@ -2255,11 +2255,25 @@ main .main-service-list .main-services-item .item-info button:hover {
 
 @media (max-width: 972px) {
     .upperNav {
-        padding: 0 11px;
+        padding: 0 10px;
         justify-content: space-between;
         font-size: 15px;
         text-align: center;
     }
+
+    .bookAptBtn {
+        height: 35px;
+        width: 180px;
+        background-color: #219ad0;
+        border: 2px solid white;
+        outline: none;
+        color: #fff;
+        font-size: 14px;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
 
     .lowerNav .navLinks ul li {
         padding: 4px 8px;
@@ -2941,6 +2955,56 @@ main .main-service-list .main-services-item .item-info button:hover {
 
 @media (max-width: 768px) {
 
+    .upperNav {
+        height: 3.4rem;
+        background-color: #0254b9;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .upperNav p a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+
+    .upperNav .address {
+        width: 35%;
+    }
+
+    .contact {
+        width: 65%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+    }
+
+    .bookAptBtn {
+        height: 35px;
+        width: 170px;
+        background-color: #219ad0;
+        border: 2px solid white;
+        outline: none;
+        color: #fff;
+        font-size: 14px;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .bookAptBtn:hover {
+        background-color: #fff;
+        color: #219ad0;
+        transition: 0.3s all ease-in-out;
+        border: 2px solid #219ad0;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
     .hamburger {
         display: block;
     }
@@ -3084,7 +3148,7 @@ main .main-service-list .main-services-item .item-info button:hover {
     }
 
     .facilities .grid-item {
-        width: 90%;
+        width: 50%;
     }
 
     .services .service-list .buttons a {
@@ -4094,14 +4158,54 @@ main .main-service-list .main-services-item .item-info button:hover {
 
 @media (max-width: 400px) {
     .upperNav {
-        justify-content: space-between;
-        font-size: 10px;
-        height: 3rem;
+        height: 3.4rem;
         background-color: #0254b9;
         display: flex;
         justify-content: space-between;
         align-items: center;
         color: #fff;
+        font-size: 9px;
+        padding: 0 7px;
+    }
+
+    .upperNav p a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+
+    .upperNav .address {
+        width: 35%;
+    }
+
+    .upperNav .contact {
+        width: 65%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 5px;
+    }
+
+    .bookAptBtn {
+        height: 35px;
+        width: 170px;
+        background-color: #219ad0;
+        border: 2px solid white;
+        outline: none;
+        color: #fff;
+        font-size: 14px;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .bookAptBtn:hover {
+        background-color: #fff;
+        color: #219ad0;
+        transition: 0.3s all ease-in-out;
+        border: 2px solid #219ad0;
+        cursor: pointer;
+        font-weight: bold;
     }
 
     .bookAptBtn {
