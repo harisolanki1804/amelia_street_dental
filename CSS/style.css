@@ -325,30 +325,30 @@ main .cover .cover-info .cover-text h2 {
 .services .service-list .buttons a button {
     width: 100%;
     height: 50px;
-    padding: 10px;
+    padding: 5px;
     background-color: #0254b9;
     border: none;
     outline: none;
     color: #fff;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1.4px;
     cursor: pointer;
     transition: 0.2s all ease-in-out;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .bab01 {
     width: 200px;
     height: 50px;
-    padding: 10px;
     background-color: #0254b9;
     border: none;
     outline: none;
     color: #fff;
     font-size: 14px;
     cursor: pointer;
+    font-weight: 600;
     transition: 0.2s all ease-in-out;
-    font-weight: bold;
+    letter-spacing: 1.8px;
 }
 
 .services .service-list .buttons button:hover,
@@ -356,6 +356,7 @@ main .cover .cover-info .cover-text h2 {
     background-color: #fff;
     color: #0254b9;
     border: 2px solid #0254b9;
+    font-weight: bold;
 }
 
 /* 3. FOOTER :- */
@@ -368,7 +369,7 @@ footer {
 
 .web-footer {
     background-color: #0254b9;
-    padding: 10px 25px;
+    padding: 10px 15px;
     display: flex;
     justify-content: space-evenly;
     align-items: start;
@@ -415,11 +416,12 @@ footer {
 .web-footer .footer-contact .contact-list {
     display: flex;
     flex-direction: column;
+    gap: 15px;
 }
 
-.web-footer .footer-contact .contact-list .contact-form {
+/* .web-footer .footer-contact .contact-list .contact-form {
     margin: 0 0 20px 0;
-}
+} */
 
 .web-footer .footer-contact .contact-list input {
     height: 40px;
@@ -430,14 +432,17 @@ footer {
 }
 
 .web-footer .footer-contact .contact-list button {
-    height: 40px;
-    width: 120px;
-    font-size: 13px;
+    height: 45px;
+    width: 200px;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1.2px;
     outline: none;
     border: none;
-    color: #ffff;
-    background-color: #00b4d8;
+    color: #0254B9;
+    background-color: #fff;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 .web-footer .footer-contact .links {
@@ -682,7 +687,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: row-reverse;
-    height: auto;
+    height: fit-content;
     width: 100%;
     margin: 20px 0;
     background-color: #0254B9;
@@ -690,11 +695,12 @@ footer {
 }
 
 .team-msg .text {
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
 .team-msg .text ul {
@@ -702,25 +708,32 @@ footer {
 }
 
 .team-msg .text ul li.quote {
-    font-size: 48px;
+    font-size: 45px;
     color: #ffffff;
 }
 
 .team-msg .text ul li.team-text {
-    font-size: 28px;
+    font-size: 24px;
     color: #ffffff;
     margin: 10px 0;
+    text-align: left;
+}
+
+.team-msg .text ul li .bold-text {
+    font-weight: 900;
 }
 
 .team-msg .team-img {
     height: auto;
-    width: auto;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    /* align-items: end; */
 }
 
 .team-img img {
     width: 100%;
-    height: 100%;
-    margin-top: 2px;
+    height: auto;
 }
 
 
@@ -1540,14 +1553,17 @@ main .main-service-list .main-services-item .item-info button:hover {
     }
 
     .web-footer .footer-contact .contact-list button {
-        height: 30px;
-        width: 90px;
-        font-size: 12px;
+        height: 45px;
+        width: 200px;
+        font-weight: bold;
+        font-size: 15px;
+        letter-spacing: 1.2px;
         outline: none;
         border: none;
-        color: #ffff;
-        background-color: #00b4d8;
+        color: #0254B9;
+        background-color: #fff;
         cursor: pointer;
+        text-transform: uppercase;
     }
 
     .web-footer .footer-contact .links {
@@ -3176,16 +3192,15 @@ main .main-service-list .main-services-item .item-info button:hover {
     .bab01 {
         width: 150px;
         height: 40px;
-        padding: 8px;
         background-color: #0254b9;
         border: none;
         outline: none;
         color: #fff;
         font-size: 12px;
-        font-weight: 400;
+        font-weight: 600;
         cursor: pointer;
         transition: 0.2s all ease-in-out;
-        font-weight: bold;
+        letter-spacing: 1.2px;
     }
 
     .lowerNav .logo img {
@@ -3677,14 +3692,14 @@ main .main-service-list .main-services-item .item-info button:hover {
     }
 
     .team-msg .text ul li.quote {
-        font-size: 45px;
+        font-size: 39px;
         color: #ffffff;
     }
 
     .team-msg .text ul li.team-text {
-        font-size: 27px;
+        font-size: 21px;
         color: #ffffff;
-        margin: 10px 0;
+        margin: 8px 0;
     }
 
     .faq-main .faq-col {
@@ -3898,6 +3913,10 @@ main .main-service-list .main-services-item .item-info button:hover {
     .contact-main .contact-col iframe {
         width: 100%;
         height: 250px;
+    }
+
+    .web-footer {
+        padding: 10px;
     }
 }
 
@@ -4126,25 +4145,32 @@ main .main-service-list .main-services-item .item-info button:hover {
     }
 
     .web-footer .footer-contact .contact-list button {
-        height: 35px;
-        width: 100px;
-        font-size: 12px;
+        height: 45px;
+        width: 180px;
+        font-weight: bold;
+        font-size: 15px;
+        letter-spacing: 1px;
         outline: none;
         border: none;
-        color: #ffff;
-        background-color: #00b4d8;
+        color: #0254B9;
+        background-color: #fff;
         cursor: pointer;
+        text-transform: uppercase;
     }
 
     .team-msg .text ul li.quote {
-        font-size: 39px;
+        font-size: 26px;
         color: #ffffff;
     }
 
+    .team-msg .text {
+        padding: 0;
+    }
+
     .team-msg .text ul li.team-text {
-        font-size: 24px;
+        font-size: 14px;
         color: #ffffff;
-        margin: 10px 0;
+        margin: 5px 0;
     }
 
     .contact-main .contact-col ul li,
@@ -4152,6 +4178,11 @@ main .main-service-list .main-services-item .item-info button:hover {
         list-style: none;
         font-size: 16px;
         color: #000000;
+    }
+
+    .our-team .doctor .doctor-text p {
+        color: #ffffff;
+        font-size: 15px;
     }
 
 }
@@ -4223,7 +4254,7 @@ main .main-service-list .main-services-item .item-info button:hover {
     .web-footer .footer-address h2,
     .web-footer .footer-opening-hours h2,
     .web-footer .footer-contact h2 {
-        font-size: 17px;
+        font-size: 15px;
         color: #fff;
         text-transform: uppercase;
         font-weight: bold;
@@ -4231,14 +4262,14 @@ main .main-service-list .main-services-item .item-info button:hover {
 
     .web-footer .footer-address ul li,
     .web-footer .footer-opening-hours ul li {
-        font-size: 14px;
+        font-size: 12px;
         margin-top: 10px;
         color: #fff;
     }
 
     .web-footer,
     .footer-address ul li a {
-        font-size: 14px;
+        font-size: 12px;
         text-decoration: none;
         color: #fff;
     }
@@ -4246,19 +4277,32 @@ main .main-service-list .main-services-item .item-info button:hover {
     .services .service-list .buttons a button {
         width: 100%;
         height: 40px;
-        padding: 7px;
+        padding: 5px;
         background-color: #0254b9;
         border: none;
         outline: none;
         color: #fff;
-        font-size: 13px;
+        font-size: 14px;
+        letter-spacing: 1.2px;
         cursor: pointer;
         transition: 0.2s all ease-in-out;
-        font-weight: bold;
     }
 
     .faq-col:last-child h3 {
         font-size: 18px;
         color: #00b4d8;
+    }
+
+    .facilities .grid-item {
+        width: 80%;
+    }
+
+    .copyright a,
+    .copyright p {
+        font-size: 12px;
+    }
+
+    .empty {
+        display: none;
     }
 }
