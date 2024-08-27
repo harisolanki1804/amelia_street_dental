@@ -8,12 +8,109 @@
     <link rel="stylesheet" href="./CSS/style.css" />
     <link rel="icon" type="image/x-icon" href="./Images/logo.png">
     <script src="https://kit.fontawesome.com/4cac3843a1.js" crossorigin="anonymous"></script>
+    <style>
+        .popup-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(5px);
+            display: none;
+            transition: opacity 0.3s ease-in-out;
+            z-index: 99;
+        }
+
+        /* Style the popup content */
+        .popup-content {
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            width: 80vw;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+        }
+
+        /* Style the close button */
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .close-btn:hover {
+            background-color: red;
+            color: #fff;
+        }
+
+        .popup-container.visible .popup-content {
+            opacity: 1;
+            transform: translate(-50%, -50%) scale(1);
+        }
+
+        .popup-container.show {
+            display: block;
+        }
+
+        .popup-item {
+            height: 100%;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border: 2px solid black;
+            border-radius: 20px;
+            padding: 10px 20px;
+        }
+    </style>
 </head>
 
 <body>
     <video id="background-video" autoplay loop muted poster="poster.jpg">
         <source src="./Images/bg-video.mp4" type="video/mp4">
     </video>
+    <!-- <div class="popup-container">
+        <div class="popup-content">
+            <div class="popup-item">
+                <div class="item-image">
+                    <a href="./emergencydentistry.html">
+                        <img src="./Images/service_item_05.png">
+                    </a>
+                </div>
+                <div class="item-info">
+                    <div class="item-content">
+                        <h3><a href="./emergencydentistry.html">Emergency Dentistry</a></h3>
+                        <p>
+                            Experience dental pain relief and prompt treatment with our emergency dentistry
+                            services. From tooth extractions to wisdom tooth removal and root canal treatment,
+                            we're
+                            here to address your urgent dental needs with care and efficiency.
+                        </p>
+                        <a href='https://www.centaurportal.com/d4w/org-971/extended_search?location=1129&randomNumber=fd2d283bcf9bb658eeae815dfec11a2d23052fb4cdf85d3f7ba0eb72a2f37e1b&shortVer=false&sourceID=null '
+                            target="_blank">
+                            <button>Book Appointment</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <button class="close-btn">X</button>
+        </div>
+    </div> -->
     <div class="homepage">
         <header>
             <div class="upperNav">
@@ -290,6 +387,19 @@
         </footer>
     </div>
     <script src="./JS/script.js"></script>
+    <!-- <script>
+        const popupContainer = document.querySelector('.popup-container');
+        const closeButton = document.querySelector('.close-btn');
+
+
+        setTimeout(() => {
+            popupContainer.classList.add('show');
+        }, 3000);
+
+        closeButton.addEventListener('click', () => {
+            popupContainer.classList.remove('show');
+        })
+    </script> -->
 </body>
 
 </html>

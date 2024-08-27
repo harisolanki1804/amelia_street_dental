@@ -4164,7 +4164,7 @@ main .main-service-list .main-services-item .item-info button:hover {
     }
 
     .team-msg .text {
-        padding: 0;
+        padding: 0 10px;
     }
 
     .team-msg .text ul li.team-text {
@@ -4306,3 +4306,50 @@ main .main-service-list .main-services-item .item-info button:hover {
         display: none;
     }
 }
+
+/* New Header Design */
+
+/* .web-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.web-header .logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.web-header .logos img {
+    display: block;
+    height: 60px;
+}
+
+.web-header .nav-links {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.web-header .nav-links ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.web-header .nav-links ul li {
+    font-size: 18px;
+    color: #0254B9;
+    font-weight: bold;
+    padding: 7px 14px;
+}
+
+.web-header .nav-links ul li:first-child {
+    background-color: #0254B9;
+    color: #fff;
+} */
